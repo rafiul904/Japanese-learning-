@@ -8,14 +8,16 @@ if (localStorage.getItem('nihongo_quest_pro_stats')) {
 let selectedOptionIndex = null;
 let isAnswerChecked = false;
 
+// ফিক্স ২: পাথ পরিবর্তন এবং ফাইল লোড নিশ্চিত করা
 async function loadDatabase() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch('./data.json'); // './' যুক্ত করা হয়েছে সুরক্ষার জন্য
+        if (!response.ok) throw new Error("Network response was not ok");
         roadmapData = await response.json();
         initApp();
     } catch (error) {
-        console.error("ডাটাবেজ লোড হয়নি:", error);
-        document.getElementById('lesson-title').innerText = "ডাটাবেজ ফাইল (data.json) পাওয়া যায়নি!";
+        console.error("ডাটাবেজ লোড হয়নি:", error);
+        document.getElementById('lesson-title').innerText = "ডাটাবেজ ফাইল (data.json) পাওয়া যায়নি!";
     }
 }
 
@@ -84,7 +86,6 @@ function loadLesson(index) {
     activeBox.style.display = 'block';
     lockedScreen.style.display = 'none';
 
-    // অ্যানিমেশন রি-ট্রিগার করার ট্রিক
     activeBox.classList.remove('fade-in');
     void activeBox.offsetWidth; 
     activeBox.classList.add('fade-in');
@@ -102,14 +103,15 @@ function loadLesson(index) {
         vocabContainer.appendChild(card);
     });
 
-    loadQuiz(lesson);
+    loadQuiz(lesson, index); // index পাস করা হয়েছে ফিক্স ৩ এর জন্য
 }
 
-function loadQuiz(lesson) {
+// ফিক্স ৩: lesson.id এর বদলে index ব্যবহার করা হয়েছে ট্র্যাকিং সহজ করতে
+function loadQuiz(lesson, index) {
     const quizContainer = document.getElementById('quiz-container');
     
-    if (userStats.completedLessons.includes(lesson.id)) {
-        quizContainer.innerHTML = `<h3 style="color:var(--secondary); text-align:center;">🎉 আপনি এই লেসনটি পাস করেছেন! পরবর্তী লেসনটি মেনু থেকে সিলেক্ট করুন।</h3>`;
+    if (userStats.completedLessons.includes(index)) {
+        quizContainer.innerHTML = `<h3 style="color:#2ecc71; text-align:center;">🎉 আপনি এই লেসনটি পাস করেছেন! পরবর্তী লেসনটি মেনু থেকে সিলেক্ট করুন।</h3>`;
         return;
     }
 
@@ -142,8 +144,63 @@ function selectOption(idx) {
     });
 }
 
+// ফিক্স ৪: কেটে যাওয়া submitOrNext ফাংশনটি সম্পূর্ণ করা হলো
 function submitOrNext() {
-    const lesson = roadmapData[userStats.currentActiveLesson];
+    const currentIndex = userStats.currentActiveLesson;
+    const lesson = roadmapData[currentIndex];
     const feedback = document.getElementById('quiz-feedback');
     const nextBtn = document.getElementById('next-btn');
-    const buttons = document.que
+    const buttons = document.querySelectorAll('#quiz-options button');
+
+    if (selectedOptionIndex === null) {
+        feedback.innerText = "⚠️ দয়া করে একটি উত্তর সিলেক্ট করুন!";
+        feedback.style.color = "orange";
+        return;
+    }
+
+    if (!isAnswerChecked) {
+        // উত্তর যাচাই পর্ব
+        isAnswerChecked = true;
+        const correctAnswerIndex = lesson.quiz.answer; // JSON এ উত্তর ইনডেক্স (0,1,2..) থাকতে হবে
+
+        if (selectedOptionIndex === correctAnswerIndex) {
+            feedback.innerText = "🎉 সঠিক উত্তর হয়েছে!";
+            feedback.style.color = "#2ecc71";
+            buttons[selectedOptionIndex].classList.add('correct');
+            
+            // প্রোগ্রেস সেভ এবং পরবর্তী লেসন আনলক
+            if (!userStats.completedLessons.includes(currentIndex)) {
+                userStats.completedLessons.push(currentIndex);
+            }
+            const nextLessonIndex = currentIndex + 1;
+            if (nextLessonIndex < roadmapData.length && !userStats.unlockedLessons.includes(nextLessonIndex)) {
+                userStats.unlockedLessons.push(nextLessonIndex);
+            }
+            saveStats();
+            nextBtn.innerText = "পরবর্তী ধাপ";
+        } else {
+            feedback.innerText = "❌ ভুল উত্তর! আবার চেষ্টা করুন।";
+            feedback.style.color = "#e74c3c";
+            buttons[selectedOptionIndex].classList.add('wrong');
+            buttons[correctAnswerIndex].classList.add('correct');
+            nextBtn.innerText = "আবার চেষ্টা করুন";
+        }
+    } else {
+        // বাটন আবার ক্লিকের পর রিফ্রেশ বা নেক্সট লেসনে যাওয়া
+        initApp();
+    }
+}
+
+// রিসেট ফাংশন (HTML এ কল করা আছে)
+function resetProgress() {
+    if(confirm("আপনি কি নিশ্চিত যে আপনার সমস্ত প্রোগ্রেস মুছে ফেলতে চান?")) {
+        localStorage.removeItem('nihongo_quest_pro_stats');
+        userStats = { unlockedLessons: [0], completedLessons: [], currentActiveLesson: 0 };
+        initApp();
+    }
+}
+
+// ফিক্স ১: অ্যাপ লোড হওয়ার সাথে সাথে ডাটাবেজ ফাংশনটি রান করানো হলো
+window.addEventListener('DOMContentLoaded', () => {
+    loadDatabase();
+});
