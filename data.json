@@ -937,3 +937,134 @@
     ],
     "quiz": {"q": "'দামি হলেও কিনব' এর সঠিক জাপানি রূপ কোনটি?", "options": ["Takai mo kaimasu", "Takakute mo kaimasu", "Takari mo kaimasu"], "correct": 1}
   }
+,
+  {
+    "id": 71,
+    "title": "লেসন ৭১: N5 পিতার কানজি ও কাজের পর অন্য কাজ (~ Te kara)",
+    "grammar": "<h3>একটি কাজ শেষ করে আরেকটি কাজ করা</h3><p>কোনো একটি কাজ সম্পন্ন করার ঠিক পরপরই অন্য একটি কাজ করা বোঝালে প্রথম ক্রিয়ার Te-form এর সাথে <b>から (Kara)</b> যোগ করা হয়। যেমন: কনসার্ট শেষ হওয়ার পর আমি বাসায় ফিরব (Konsaato ga owatte kara, uchi e kaerimasu)।</p>",
+    "vocabulary": [
+      {"jp": "父 (Chichi/Fu)", "bn": "পিতা / বাবা (নিজের) <span class='kanji-badge'>N5 Kanji 81/100</span>"},
+      {"jp": "おとうさん (Otousan)", "bn": "বাবা (অন্যের / সম্বোধন)"},
+      {"jp": "おわります (Owarimasu)", "bn": "শেষ হওয়া ➡️ おわってから"},
+      {"jp": "コンサート (Konsaato)", "bn": "কনসার্ট"},
+      {"jp": "かえります (Kaerimasu)", "bn": "ফিরে যাওয়া"}
+    ],
+    "quiz": {"q": "'খাওয়ার পর' (Tabemasu = খাওয়া) এর সঠিক জাপানি রূপ কোনটি?", "options": ["Tabete kara", "Taberu kara", "Tabemashita kara"], "correct": 0}
+  },
+  {
+    "id": 72,
+    "title": "লেসন ৭২: N5 মাতার কানজি ও দৃঢ় সম্ভাবনা প্রকাশ (~ Deshoo)",
+    "grammar": "<h3>কোনো বিষয়ে দৃঢ় অনুমান বা সম্ভাবনা প্রকাশ (Probably)</h3><p>কোনো ঘটনা ঘটার সম্ভাবনা অনেক বেশি বা প্রায় নিশ্চিত এমন অনুমান করতে বাক্যের শেষে <b>でしょう (Deshoo)</b> বা ইনফরমাল রূপে <b>だろう (Darou)</b> বসে। যেমন: আগামীকাল সম্ভবত বৃষ্টি হবে (Ashita wa ame ga furu deshoo)।</p>",
+    "vocabulary": [
+      {"jp": "母 (Haha/Bo)", "bn": "মাতা / মা (নিজের) <span class='kanji-badge'>N5 Kanji 82/100</span>"},
+      {"jp": "おかあさん (Okaasan)", "bn": "মা (অন্যের / সম্বোধন)"},
+      {"jp": "あめ (Ame)", "bn": "বৃষ্টি"},
+      {"jp": "ふります (Furimasu)", "bn": "আকাশ থেকে পড়া (বৃষ্টি/বরফ)"},
+      {"jp": "たぶん (Tabun)", "bn": "সম্ভবত (Perhaps)"}
+    ],
+    "quiz": {"q": "কানজি '母' এর বাংলা অর্থ কী?", "options": ["বাবা", "মা", "বন্ধু"], "correct": 1}
+  },
+  {
+    "id": 73,
+    "title": "লেসন ৭৩: N5 পুরুষের কানজি ও কোনো কিছুর পরিমাণ বা সীমা নির্ধারণ (~ Dake)",
+    "grammar": "<h3>'শুধুমাত্র' বা একমাত্র বোঝাতে (Only)</h3><p>কোনো নাউন বা পরিমাণের পরে শুধুমাত্র বা লিমিট বোঝাতে <b>だけ (Dake)</b> পার্টিকল বসে। এর পর সাধারণত পজিটিভ বাক্য বসে। যেমন: আমি শুধু ৫ মিনিট অপেক্ষা করব (Gofun dake machimasu)।</p>",
+    "vocabulary": [
+      {"jp": "男 (Otoko/Dan)", "bn": "পুরুষ / ছেলে <span class='kanji-badge'>N5 Kanji 83/100</span>"},
+      {"jp": "おトこのこ (Otoko no ko)", "bn": "ছেলে শিশু / বালক"},
+      {"jp": "だけ (Dake)", "bn": "শুধু / শুধুমাত্র (Only)"},
+      {"jp": "ごふん (Gofun)", "bn": "৫ মিনিট"},
+      {"jp": "まちます (Machimasu)", "bn": "অপেক্ষা করা"}
+    ],
+    "quiz": {"q": "'শুধু পানি চাই' (Mizu = পানি, Hoshii = চাওয়া) এর সঠিক রূপ কোনটি?", "options": ["Mizu dake hoshii desu", "Mizu kara hoshii desu", "Mizu to hoshii desu"], "correct": 0}
+  },
+  {
+    "id": 74,
+    "title": "লেসন ৭৪: N5 নারীর কানজি ও কোনো কাজের পরামর্শ দেওয়া (~ Ta hoo ga ii)",
+    "grammar": "<h3>কাউকে ভালো কোনো পরামর্শ দেওয়া (Had better)</h3><p>কাউকে কোনো কাজ করার স্ট্রং পরামর্শ দিতে ক্রিয়ার Ta-form এর সাথে <b>ほう が いいです (~ hoo ga ii desu)</b> যোগ করা হয়। যেমন: আপনার ওষুধ খাওয়াটাই ভালো হবে (Kusuri o nonda hoo ga ii desu)।</p>",
+    "vocabulary": [
+      {"jp": "女 (Onna/Jo)", "bn": "নারী / মেয়ে <span class='kanji-badge'>N5 Kanji 84/100</span>"},
+      {"jp": "おんなのこ (Onna no ko)", "bn": "মেয়ে শিশু / বালিকা"},
+      {"jp": "ほう (Hoo)", "bn": "দিক / বিকল্প পদ্ধতি"},
+      {"jp": "いいです (Ii desu)", "bn": "ভালো / উত্তম"},
+      {"jp": "どうじょ (Douzo)", "bn": "দয়া করে (আসুন/নিন)"}
+    ],
+    "quiz": {"q": "'যাওয়াটাই ভালো হবে' (Ikimasu ➡️ Itta) এর সঠিক জাপানি রূপ কোনটি?", "options": ["Iku hoo ga ii desu", "Itta hoo ga ii desu", "Ite hoo ga ii desu"], "correct": 1}
+  },
+  {
+    "id": 75,
+    "title": "লেসন ৭৫: N5 ভাতের কানজি ও ইনফরমাল বা প্লেইন স্টাইল (Plain Style Summary)",
+    "grammar": "<h3>দৈনন্দিন জীবনে ইনফরমাল বা প্লেইন কথা বলা</h3><p>বন্ধু-বান্ধব বা পরিবারের সাথে কথা বলার সময় আমরা মাসু-ফর্ম বাদ দিয়ে প্লেইন ফর্ম ব্যবহার করি। যেমন: Tabemasu এর জায়গায় `Taberu`, Tabemasen এর জায়গায় `Tabenai`, এবং Tabemashita এর জায়গায় `Tabeta` ব্যবহার করা হয়।</p>",
+    "vocabulary": [
+      {"jp": "飯 (Meshi/Han)", "bn": "ভাত / আহার <span class='kanji-badge'>N5 Kanji 85/100</span>"},
+      {"jp": "ごはん (Gohan)", "bn": "ভাত / খাবার"},
+      {"jp": "あさごはん (Asagohan)", "bn": "সকালের নাস্তা"},
+      {"jp": "ひるごはん (Hirugohan)", "bn": "দুপুরের খাবার"},
+      {"jp": "ばんごはん (Bangohan)", "bn": "রাতের খাবার"}
+    ],
+    "quiz": {"q": "'খাব না' এর ইনফরমাল বা প্লেইন রূপ কোনটি?", "options": ["Tabemasen", "Tabenai", "Taberu"], "correct": 1}
+  },
+  {
+    "id": 76,
+    "title": "লেসন ৭৬: N5 পানির কানজি ও নম্র অনুরোধ বা আহ্বান (~ Mase n ka)",
+    "grammar": "<h3>কাউকে অত্যন্ত নম্রভাবে আমন্ত্রণ জানানো</h3><p>কাউকে একসাথে কোনো কাজ করার জন্য খুব নম্রভাবে বা পোলাইটলি আমন্ত্রণ জানাতে ভার্বের ます (masu) বাদ দিয়ে <b>ませんか (~ mase n ka)</b> যোগ করা হয়। যেমন: একসাথে চা খাবেন কি? (Issho ni ocha o nomimasen ka?)</p>",
+    "vocabulary": [
+      {"jp": "水 (Mizu/Sui)", "bn": "পানি <span class='kanji-badge'>N5 Kanji 86/100</span>"},
+      {"jp": "みず (Mizu)", "bn": "পানি"},
+      {"jp": "おちゃ (Ocha)", "bn": "গ্রিন টি / চা"},
+      {"jp": "いっしょに (Issho ni)", "bn": "একসাথে"},
+      {"jp": "のみませんか (Nomimasen ka)", "bn": "পান করবেন কি?"}
+    ],
+    "quiz": {"q": "পানির সঠিক জাপানি কানজি কোনটি?", "options": ["火", "水", "木"], "correct": 1}
+  },
+  {
+    "id": 77,
+    "title": "লেসন ৭৭: N5 চায়ের কানজি ও অতিরিক্ত কোনো কিছু করা (~ Sugimasu)",
+    "grammar": "<h3>সীমার অতিরিক্ত কোনো কাজ বা অবস্থা প্রকাশ (Too much)</h3><p>কোনো কাজ বা বিশেষণ যখন মাত্রার চেয়ে বেশি হয়ে যায়, তখন ভার্বের ます বাদ দিয়ে অথবা Adjective এর শেষ বর্ণ বাদ দিয়ে <b>すぎます (~ sugimasu)</b> যোগ করা হয়। যেমন: বেশি খেয়ে ফেলেছি (Tabe-sugimashita)।</p>",
+    "vocabulary": [
+      {"jp": "茶 (Cha/Sa)", "bn": "চা <span class='kanji-badge'>N5 Kanji 87/100</span>"},
+      {"jp": "おちゃ (Ocha)", "bn": "চা"},
+      {"jp": "たべすぎます (Tabesugimasu)", "bn": "অতিরিক্ত খাওয়া"},
+      {"jp": "のみすぎます (Nomisugimasu)", "bn": "অতিরিক্ত পান করা"},
+      {"jp": "たかい (Takai)", "bn": "দামি ➡️ たかすぎます (অতিরিক্ত দামি)"}
+    ],
+    "quiz": {"q": "'অতিরিক্ত দামি' এর সঠিক জাপানি রূপ কোনটি হবে?", "options": ["Takaisugimasu", "Takasugimasu", "Takakusugimasu"], "correct": 1}
+  },
+  {
+    "id": 78,
+    "title": "লেসন ৭৮: N5 ক্রয়ের কানজি ও একসাথে একাধিক নাউন যুক্ত করা (~ Ya)",
+    "grammar": "<h3>অসম্পূর্ণ তালিকা প্রকাশে নাউন যুক্ত করা (And etc.)</h3><p>যখন অনেকগুলো জিনিসের মধ্যে মাত্র ২/৩টি জিনিসের নাম উদাহরণ হিসেবে বলা হয়, তখন এবং বোঝাতে と (To) এর পরিবর্তে <b>や (Ya)</b> বসে এবং বাক্যের শেষে <b>など (Nado)</b> যোগ করা হয়। যেমন: দোকানে বই, কলম ইত্যাদি আছে।</p>",
+    "vocabulary": [
+      {"jp": "買 (Ka/Bai)", "bn": "কেনা / ক্রয় <span class='kanji-badge'>N5 Kanji 88/100</span>"},
+      {"jp": "かいます (Kaimasu)", "bn": "কেনা"},
+      {"jp": "かいもの (Kaimono)", "bn": "কেনাকাটা"},
+      {"jp": "ほん (Hon)", "bn": "বই"},
+      {"jp": "ペン (Pen)", "bn": "কলম"}
+    ],
+    "quiz": {"q": "'বই এবং কলম ইত্যাদি' এর সঠিক জাপানি প্রকাশ কোনটি?", "options": ["Hon to pen", "Hon ya pen nado", "Hon ni pen"], "correct": 1}
+  },
+  {
+    "id": 79,
+    "title": "লেসন ৭৯: N5 বিক্রয়ের কানজি ও কোনো উদ্দেশ্য বা লক্ষ্য প্রকাশ (~ Tame ni)",
+    "grammar": "<h3>কোনো উদ্দেশ্যে বা উপকারের জন্য কাজ করা (For / In order to)</h3><p>কোনো নির্দিষ্ট লক্ষ্য অর্জনের জন্য বা কারো উপকারের জন্য কিছু করা বোঝালে Noun + no + <b>ため に (Tame ni)</b> অথবা Verb Dictionary form + tame ni বসে। যেমন: জাপানে যাওয়ার জন্য পড়াশোনা করছি।</p>",
+    "vocabulary": [
+      {"jp": "売 (U/Bai)", "bn": "বিক্রি করা <span class='kanji-badge'>N5 Kanji 89/100</span>"},
+      {"jp": "うります (Urimasu)", "bn": "বিক্রি করা"},
+      {"jp": "ため (Tame)", "bn": "উদ্দেশ্য / কারণ / জন্য"},
+      {"jp": "にほん (Nihon)", "bn": "জapan"},
+      {"jp": "りょこう (Ryokou)", "bn": "ভ্রমণ / ট্যুর"}
+    ],
+    "quiz": {"q": "'ভ্রমণের জন্য' (Ryokou = ভ্রমণ) এর সঠিক জাপানি রূপ কোনটি?", "options": ["Ryokou no tame ni", "Ryokou tame ni", "Ryokou ni tame ni"], "correct": 0}
+  },
+  {
+    "id": 80,
+    "title": "লেসন ৮০: N5 মাছের কানজি ও কোনো কাজ করার সহজ/কঠিন রূপ (~ Yasui / ~ Nikui)",
+    "grammar": "<h3>কোনো কাজ করা সহজ নাকি কঠিন তা প্রকাশ করা</h3><p>১. কোনো কাজ করা সহজ বোঝালে ভার্বের ます (masu) বাদ দিয়ে <b>やすい (Yasui)</b> বসে।<br>২. কোনো কাজ করা কঠিন বা জটিল বোঝালে ます বাদ দিয়ে <b>にくい (Nikui)</b> বসে। যেমন: এই কলম দিয়ে লেখা সহজ (Kaki-yasui desu)।</p>",
+    "vocabulary": [
+      {"jp": "魚 (Sakana/Gyo)", "bn": "মাছ <span class='kanji-badge'>N5 Kanji 90/100</span>"},
+      {"jp": "さかな (Sakana)", "bn": "মাছ"},
+      {"jp": "かきます (Kakimasu)", "bn": "লেখা ➡️ かきやすい (লেখা সহজ)"},
+      {"jp": "わかります (Wakarimasu)", "bn": "বোঝা ➡️ わかりにくい (বোঝা কঠিন)"},
+      {"jp": "ほん (Hon)", "bn": "বই"}
+    ],
+    "quiz": {"q": "'বোঝা সহজ' এর সঠিক জাপানি রূপ কোনটি হবে?", "options": ["Wakariyasui", "Wakarinikui", "Wakarimasuyasui"], "correct": 0}
+  }
