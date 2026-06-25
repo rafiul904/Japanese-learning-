@@ -543,3 +543,134 @@
     ],
     "quiz": {"q": "'たべます' (Tabemasu) এটি কোন গ্রুপের ক্রিয়াপদ?", "options": ["গ্রুপ ১", "গ্রুপ ২", "গ্রুপ ৩"], "correct": 1}
   }
+,
+  {
+    "id": 41,
+    "title": "লেসন ৪১: N5 দর্শনের কানজি ও Te-form এর অনুরোধ (~ Te kudasai)",
+    "grammar": "<h3>ভদ্রভাবে কোনো অনুরোধ করা</h3><p>কাউকে ভদ্রভাবে কোনো কাজ করতে বলতে বা নির্দেশ দিতে ক্রিয়ার Te-form এর সাথে <b>ください (~ kudasai)</b> যোগ করা হয়। যেমন: দয়া করে দেখুন (Mite kudasai)।</p>",
+    "vocabulary": [
+      {"jp": "見 (Mi/Ken)", "bn": "দেখা / দর্শন <span class='kanji-badge'>N5 Kanji 51/100</span>"},
+      {"jp": "みてください (Mite kudasai)", "bn": "দয়া করে দেখুন"},
+      {"jp": "きてください (Kite kudasai)", "bn": "দয়া করে আসুন"},
+      {"jp": "ちょっと (Chotto)", "bn": "একটু / সামান্য"},
+      {"jp": "ゆっくり (Yukkuri)", "bn": "ধীরে ধীরে / আস্তে"}
+    ],
+    "quiz": {"q": "'দয়া করে অপেক্ষা করুন' (Machimasu = অপেক্ষা করা) এর সঠিক জাপানিজ কোনটি?", "options": ["Matte kudasai", "Machi kudasai", "Machimashoo"], "correct": 0}
+  },
+  {
+    "id": 42,
+    "title": "লেসন ৪২: N5 শ্রবণের কানজি ও চলমান কাজ (~ Te imasu)",
+    "grammar": "<h3>চলমান বর্তমান কাল বা Present Continuous</h3><p>বর্তমানে কোনো কাজ এই মুহূর্তে করা হচ্ছে বা চলছে বোঝাতে ক্রিয়ার Te-form এর সাথে <b>います (~ imasu)</b> যোগ করতে হয়। যেমন: আমি বই পড়ছি (Hon o yonde imasu)।</p>",
+    "vocabulary": [
+      {"jp": "聞 (Ki/Bun)", "bn": "শোনা / জিজ্ঞাসা করা <span class='kanji-badge'>N5 Kanji 52/100</span>"},
+      {"jp": "きいています (Kiite imasu)", "bn": "শুনছি / শুনছেন"},
+      {"jp": "べんきょうしています (Benkyou shite imasu)", "bn": "পড়াশোনা করছি"},
+      {"jp": "でんわ (Denwa)", "bn": "টেলিফোন / ফোন কল"},
+      {"jp": "おんがく (Ongaku)", "bn": "গান / মিউজিক"}
+    ],
+    "quiz": {"q": "'আমি খাচ্ছি' (Tabemasu = খাওয়া) এর সঠিক চলমান রূপ কোনটি?", "options": ["Tabete kudasai", "Tabete imasu", "Tabemashita"], "correct": 1}
+  },
+  {
+    "id": 43,
+    "title": "লেসন ৪৩: N5 লেখার কানজি ও অনুমতি চাওয়া (~ Te mo ii desu ka)",
+    "grammar": "<h3>কোনো কাজের অনুমতি বা পারমিশন নেওয়া</h3><p>কোনো কাজ করার অনুমতি চাইতে ক্রিয়ার Te-form এর সাথে <b>も いいですか (~ mo ii desu ka)</b> যুক্ত করা হয়। এর অর্থ: 'আমি কি এটি করতে পারি?' যেমন: আমি কি এখানে বসতে পারি?</p>",
+    "vocabulary": [
+      {"jp": "書 (Ka/Sho)", "bn": "লেখা <span class='kanji-badge'>N5 Kanji 53/100</span>"},
+      {"jp": "すわります (Suwarimasu)", "bn": "বসা"},
+      {"jp": "はいります (Hairimasu)", "bn": "প্রবেশ করা"},
+      {"jp": "しゃしん (Shashin)", "bn": "ছবি / ফটোগ্রাফ"},
+      {"jp": "タバコ (Tabako)", "bn": "সিগারেট"}
+    ],
+    "quiz": {"q": "'আমি কি লিখতে পারি?' এর সঠিক জাপানি রূপ কোনটি?", "options": ["Kaite mo ii desu ka", "Kaki mo ii desu ka", "Kaite kudasai"], "correct": 0}
+  },
+  {
+    "id": 44,
+    "title": "লেসন ৪৪: N5 পঠনের কানজি ও নিষেধাজ্ঞা প্রকাশ (~ Te wa ikemasen)",
+    "grammar": "<h3>কোনো কাজ করতে নিষেধ করা (Prohibition)</h3><p>কোনো কাজ করা কঠোরভাবে নিষিদ্ধ বা করা যাবে না বোঝাতে ক্রিয়ার Te-form এর সাথে <b>は いけません (~ wa ikemasen)</b> যোগ করা হয়। যেমন: এখানে গাড়ি রাখা যাবে না।</p>",
+    "vocabulary": [
+      {"jp": "読 (Yo/Doku)", "bn": "পড়া <span class='kanji-badge'>N5 Kanji 54/100</span>"},
+      {"jp": "とめます (Tomemasu)", "bn": "থামানো / পার্ক করা"},
+      {"jp": "おきます (Okimasu)", "bn": "রাখা (Put/Place)"},
+      {"jp": "ここ (Koko)", "bn": "এখানে"},
+      {"jp": "じゅうしょ (Juusho)", "bn": "ঠিকানা"}
+    ],
+    "quiz": {"q": "'পড়া যাবে না' এর সঠিক জাপানি নিষেধাজ্ঞা রূপ কোনটি?", "options": ["Yonde mo ii desu", "Yonde wa ikemasen", "Yonde kudasai"], "correct": 1}
+  },
+  {
+    "id": 45,
+    "title": "লেসন ৪৫: N5 মুখের কানজি ও Te-form এর ধারাবাহিক কাজ (~ Te, ~ Te...)",
+    "grammar": "<h3>একের পর এক একাধিক কাজ বা সিকোয়েন্স প্রকাশ</h3><p>যখন একজন ব্যক্তি পর পর কয়েকটি কাজ করে, তখন ক্রোনোলজিক্যাল অর্ডার বা ধারাবাহিকতা বজায় রাখতে প্রথম দিকের ক্রিয়াগুলোকে Te-form দিয়ে যুক্ত করা হয় এবং শেষ ক্রিয়া দিয়ে কাল নির্ধারিত হয়।</p>",
+    "vocabulary": [
+      {"jp": "口 (Kuchi/Koo)", "bn": "মুখ <span class='kanji-badge'>N5 Kanji 55/100</span>"},
+      {"jp": "あさ (Asa)", "bn": "সকাল"},
+      {"jp": "シャワー (Shawaa)", "bn": "ঝরনা / শাওয়ার"},
+      {"jp": "あびます (Abimasu)", "bn": "গোসল করা (শাওয়ার নেওয়া)"},
+      {"jp": "かいしゃ (Kaisha)", "bn": "কোম্পানি / অফিস"}
+    ],
+    "quiz": {"q": "মুখের কানজি '口' এর জাপানি উচ্চারণ কোনটি?", "options": ["Me", "Te", "Kuchi"], "correct": 2}
+  },
+  {
+    "id": 46,
+    "title": "লেসন ৪৬: N5 চোখের কানজি এবং কাজ শুরুর অবজেক্ট পার্টিকল (~ O deru)",
+    "grammar": "<h3>কোনো স্থান থেকে বের হওয়া বা প্রস্থান করা</h3><p>যখন কোনো ট্রেন, গাড়ি বা কোনো স্থান থেকে বের হওয়া বা নেমে যাওয়া বোঝায়, তখন সেই স্থানের পরে <b>を (O)</b> পার্টিকল বসে। যেমন: বাসা থেকে বের হওয়া (Uchi o deru)।</p>",
+    "vocabulary": [
+      {"jp": "目 (Me/Moku)", "bn": "চোখ <span class='kanji-badge'>N5 Kanji 56/100</span>"},
+      {"jp": "でます (Demasu)", "bn": "বের হওয়া"},
+      {"jp": "おります (Orimasu)", "bn": "নেমে যাওয়া (বাস বা ট্রেন থেকে)"},
+      {"jp": "でんしゃ (Densha)", "bn": "ট্রেন"},
+      {"jp": "えき (Eki)", "bn": "স্টেশন"}
+    ],
+    "quiz": {"q": "'চোখ' এর জন্য কোন জাপানি কানজি সঠিক?", "options": ["口", "目", "手"], "correct": 1}
+  },
+  {
+    "id": 47,
+    "title": "লেসন ৪৭: N5 কানের কানজি এবং প্রবেশ পার্টিকল (~ Ni hairu)",
+    "grammar": "<h3>কোনো স্থানে বা বাহনে প্রবেশ করা</h3><p>পূর্ববর্তী লেসনের বিপরীত হিসেবে, কোনো স্থান, রুম বা যানবাহনের ভেতরে প্রবেশ করা বা চড়া বোঝালে সেই গন্তব্যের পরে <b>に (Ni)</b> পার্টিকল বসে। যেমন: ডাইগাকু নি হাইরু (বিশ্ববিদ্যালয়ে প্রবেশ করা)।</p>",
+    "vocabulary": [
+      {"jp": "耳 (Mimi/Ji)", "bn": "কান <span class='kanji-badge'>N5 Kanji 57/100</span>"},
+      {"jp": "はいります (Hairimasu)", "bn": "প্রবেশ করা"},
+      {"jp": "のります (Norimasu)", "bn": "চড়া (বোর্ড করা / আরোহণ করা)"},
+      {"jp": "へや (Heya)", "bn": "রুম / কক্ষ"},
+      {"jp": "おふろ (Ofuro)", "bn": "বাথটাব / গোসলখানা"}
+    ],
+    "quiz": {"q": "'কক্ষে প্রবেশ করা' - এর সঠিক পার্টিকল রূপ কোনটি?", "options": ["Heya o hairimasu", "Heya ni hairimasu", "Heya de hairimasu"], "correct": 1}
+  },
+  {
+    "id": 48,
+    "title": "লেসন ৪৮: N5 হাতের কানজি এবং বিশেষণ যুক্ত করার নিয়ম (I-Adj ➡️ ~Kute)",
+    "grammar": "<h3>একাধিক I-Adjective একসাথে যুক্ত করা</h3><p>দুটি I-Adjective একসাথে জোড়া দিতে প্রথম বিশেষণের শেষের い (i) বাদ দিয়ে <b>くて (~ kute)</b> বসাতে হয়। যেমন: Atarashii (নতুন) + Ii (ভালো) ➡️ Atarashikute ii desu (নতুন এবং ভালো)।</p>",
+    "vocabulary": [
+      {"jp": "手 (Te/Shu)", "bn": "হাত <span class='kanji-badge'>N5 Kanji 58/100</span>"},
+      {"jp": "ひろい (Hiroi)", "bn": "প্রশস্ত / বড় (জায়গা)"},
+      {"jp": "せまい (Semai)", "bn": "সংকীর্ণ / ছোট (জায়গা)"},
+      {"jp": "あかるい (Akaraui)", "bn": "উজ্জ্বল / আলোকময়"},
+      {"jp": "くらい (Kurai)", "bn": "অন্ধকার"}
+    ],
+    "quiz": {"q": "'হাত' এর সঠিক জাপানি কানজি কোনটি?", "options": ["手", "目", "耳"], "correct": 0}
+  },
+  {
+    "id": 49,
+    "title": "লেসন ৪৯: N5 পায়ের কানজি এবং Na-Adjective যুক্ত করার নিয়ম (~ De)",
+    "grammar": "<h3>একাধিক Na-Adjective বা Noun একসাথে যুক্ত করা</h3><p>দুটি Na-Adjective বা দুটি নাউনকে একসাথে জোড়া দিতে প্রথমটির শেষে সরাসরি <b>で (De)</b> যোগ করতে হয়। যেমন: Kirei (সুন্দর) + Shizuka (শান্ত) ➡️ Kirei de shizuka desu (সুন্দর এবং শান্ত)।</p>",
+    "vocabulary": [
+      {"jp": "足 (Ashi/Soku)", "bn": "পা <span class='kanji-badge'>N5 Kanji 59/100</span>"},
+      {"jp": "しんせつ [な] (Shinsetsu [na])", "bn": "দয়ালু / ভদ্র"},
+      {"jp": "べんり [な] (Benri [na])", "bn": "সুবিধাজনক"},
+      {"jp": "げんき [な] (Genki [na])", "bn": "সুস্থ / প্রাণবন্ত"},
+      {"jp": "ハンサム [な] (Hansamu [na])", "bn": "হ্যান্ডসাম / সুদর্শন"}
+    ],
+    "quiz": {"q": "'দয়ালু এবং হ্যান্ডসাম' - এর সঠিক জাপানি কম্বিনেশন কোনটি?", "options": ["Shinsetsu kute hansamu", "Shinsetsu de hansamu", "Shinsetsu ni hansamu"], "correct": 1}
+  },
+  {
+    "id": 50,
+    "title": "লেসন ৫০: N5 শক্তির কানজি ও ক্রিয়ার Nai-form এর সূচনা",
+    "grammar": "<h3>জাপানি ক্রিয়ার নেতিবাচক বা Nai-form</h3><p>জাপানি ক্রিয়ার না-বোধক ইনফরমাল রূপকে Nai-form বলা হয়। গ্রুপ-১ এর ক্ষেত্রে ます এর আগের i-সাউন্ডটি a-সাউন্ডে রূপান্তরিত হয়ে শেষে nai বসে (যেমন: Kakimasu ➡️ Kakanai)। গ্রুপ-২ এর ক্ষেত্রে শুধু ます বাদ দিয়ে nai বসে (যেমন: Tabemasu ➡️ Tabenai)।</p>",
+    "vocabulary": [
+      {"jp": "力 (Chikara/Ryoku)", "bn": "শক্তি / ক্ষমতা <span class='kanji-badge'>N5 Kanji 60/100</span>"},
+      {"jp": "かかない (Kakanai)", "bn": "লিখব না (Nai-form)"},
+      {"jp": "たべない (Tabenai)", "bn": "খাব না (Nai-form)"},
+      {"jp": "しない (Shinai)", "bn": "করব না (Shimasu এর Nai-form)"},
+      {"jp": "こない (Konai)", "bn": "আসব না (Kimasu এর Nai-form - ব্যতিক্রম)"}
+    ],
+    "quiz": {"q": "'Tabemasu' (খাওয়া) এর সঠিক Nai-form কোনটি?", "options": ["Tabenai", "Tabanai", "Tabemasen"], "correct": 0}
+  }
