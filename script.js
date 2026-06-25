@@ -11,7 +11,7 @@ let isAnswerChecked = false;
 // ফিক্স ২: পাথ পরিবর্তন এবং ফাইল লোড নিশ্চিত করা
 async function loadDatabase() {
     try {
-        const response = await fetch('./data.json'); // './' যুক্ত করা হয়েছে সুরক্ষার জন্য
+        const response = await fetch( /data.json'); // './' যুক্ত করা হয়েছে সুরক্ষার জন্য
         if (!response.ok) throw new Error("Network response was not ok");
         roadmapData = await response.json();
         initApp();
