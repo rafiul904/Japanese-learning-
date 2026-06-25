@@ -674,3 +674,266 @@
     ],
     "quiz": {"q": "'Tabemasu' (খাওয়া) এর সঠিক Nai-form কোনটি?", "options": ["Tabenai", "Tabanai", "Tabemasen"], "correct": 0}
   }
+
+,
+  {
+    "id": 51,
+    "title": "লেসন ৫১: N5 গমনের কানজি ও নাই-ফর্মের অনুরোধ (~ Naide kudasai)",
+    "grammar": "<h3>কোনো কিছু না করার অনুরোধ</h3><p>কাউকে কোনো কাজ 'না করার' জন্য ভদ্রভাবে অনুরোধ করতে ক্রিয়ার Nai-form এর সাথে <b>で ください (~ de kudasai)</b> যোগ করতে হয়। যেমন: দয়া করে ভুলবেন না (Wasurenaide kudasai)।</p>",
+    "vocabulary": [
+      {"jp": "行 (I/Koo)", "bn": "যাওয়া <span class='kanji-badge'>N5 Kanji 61/100</span>"},
+      {"jp": "わすれます (Wasuremasu)", "bn": "ভুলে যাওয়া ➡️ わすれないでください"},
+      {"jp": "しゃしんを撮ります (Shashin o torimasu)", "bn": "ছবি তোলা ➡️ とらないでください"},
+      {"jp": "しんぱいします (Shinpaishimasu)", "bn": "চিন্তা করা"},
+      {"jp": "だいじょうぶ (Daijoubu)", "bn": "ঠিক আছে / সমস্যা নেই"}
+    ],
+    "quiz": {"q": "'দয়া করে ছবি তুলবেন না' এর সঠিক জাপানি রূপ কোনটি?", "options": ["Toranaide kudasai", "Torenaide kudasai", "Torite kudasai"], "correct": 0}
+  },
+  {
+    "id": 52,
+    "title": "লেসন ৫২: N5 আগমনের কানজি ও বাধ্যবাধকতা প্রকাশ (~ Nakereba narimasen)",
+    "grammar": "<h3>অবশ্যই কোনো কাজ করতে হবে (Must do)</h3><p>কোনো কাজ করতেই হবে বা করা বাধ্যতামূলক বোঝাতে ক্রিয়ার Nai-form এর শেষের い (i) বাদ দিয়ে <b>ければ なりません (~ kereba narimasen)</b> যোগ করতে হয়। যেমন: ওষুধ খেতে হবে (Kusuri o nomanakereba narimasen)।</p>",
+    "vocabulary": [
+      {"jp": "来 (Ki/Rai)", "bn": "আসা <span class='kanji-badge'>N5 Kanji 62/100</span>"},
+      {"jp": "くすり (Kusuri)", "bn": "ওষুধ"},
+      {"jp": "のみます (Nomimasu)", "bn": "পান করা / (ওষুধ) খাওয়া"},
+      {"jp": "パスポート (Pasupooto)", "bn": "পাসপোর্ট"},
+      {"jp": "みせます (Misemasu)", "bn": "দেখানো (Show করা)"}
+    ],
+    "quiz": {"q": "'পাসপোর্ট দেখাতে হবে' এর সঠিক জাপানি রূপ কোনটি?", "options": ["Misereba narimasen", "Misenakereba narimasen", "Misenaide kudasai"], "correct": 1}
+  },
+  {
+    "id": 53,
+    "title": "লেসন ৫৩: N5 প্রত্যাবর্তনের কানজি ও ছাড় দেওয়া (~ Nakute mo ii desu)",
+    "grammar": "<h3>কোনো কাজ না করলেও চলবে (Need not do)</h3><p>কোনো কাজ করার বাধ্যবাধকতা নেই বা 'না করলেও সমস্যা নেই' বোঝাতে ক্রিয়ার Nai-form এর শেষের い (i) বাদ দিয়ে <b>くて も いいです (~ kute mo ii desu)</b> যোগ করা হয়। যেমন: আগামীকাল না আসলেও চলবে।</p>",
+    "vocabulary": [
+      {"jp": "帰 (Kae/Ki)", "bn": "ফিরে যাওয়া / প্রত্যাবর্তন <span class='kanji-badge'>N5 Kanji 63/100</span>"},
+      {"jp": "あした (Ashita)", "bn": "আগামীকাল"},
+      {"jp": "きます (Kimasu)", "bn": "আসা ➡️ こなくてもいいです"},
+      {"jp": "いそぎます (Isogimasu)", "bn": "তাড়াহুড়ো করা"},
+      {"jp": "ぬぎます (Nugimasu)", "bn": "কাপড়/জুতো খোলা"}
+    ],
+    "quiz": {"q": "'তাড়াহুড়ো না করলেও চলবে' (Isogimasu) এর সঠিক রূপ কোনটি?", "options": ["Isoganakereba narimasen", "Isoganakute mo ii desu", "Isoganaide kudasai"], "correct": 1}
+  },
+  {
+    "id": 54,
+    "title": "লেসন ৫৪: N5 সময়ের কানজি (সকাল) ও ক্রিয়ার অভিধান রূপ (Dictionary Form)",
+    "grammar": "<h3>জাপানি ক্রিয়ার ডিকশনারি বা বেসিক রূপ</h3><p>জাপানি ডিকশনারিতে ক্রিয়াগুলো যেভাবে থাকে তাকে Dictionary Form বা ইনফরমাল বর্তমান কাল বলে। গ্রুপ-১ এর ক্ষেত্রে ます এর আগের i-সাউন্ডটি u-সাউন্ডে রূপান্তর হয় (যেমন: Ikimasu ➡️ Iku)। গ্রুপ-২ এর ক্ষেত্রে ます বাদ দিয়ে る (ru) বসে (যেমন: Tabemasu ➡️ Taberu)। গ্রুপ-৩ এ Shimasu ➡️ Suru এবং Kimasu ➡️ Kuru হয়।</p>",
+    "vocabulary": [
+      {"jp": "朝 (Asa/Choo)", "bn": "সকাল <span class='kanji-badge'>N5 Kanji 64/100</span>"},
+      {"jp": "いく (Iku)", "bn": "যাওয়া (Ikimasu এর Dictionary Form)"},
+      {"jp": "たべる (Taberu)", "bn": "খাওয়া (Tabemasu এর Dictionary Form)"},
+      {"jp": "する (Suru)", "bn": "করা (Shimasu এর Dictionary Form)"},
+      {"jp": "くる (Kuru)", "bn": "আসা (Kimasu এর Dictionary Form)"}
+    ],
+    "quiz": {"q": "'Shimasu' (করা) এর সঠিক ডিকশনারি রূপ কোনটি?", "options": ["Suru", "Suroo", "Shiru"], "correct": 0}
+  },
+  {
+    "id": 55,
+    "title": "লেসন ৫৫: N5 সময়ের কানজি (রাত) ও সামর্থ্য প্রকাশ (~ Koto gaできます)",
+    "grammar": "<h3>কোনো কাজ করার যোগ্যতা বা সামর্থ্য প্রকাশ (Can do)</h3><p>নিজের কোনো দক্ষতা বা কোনো কাজ করার ক্ষমতা প্রকাশ করতে ক্রিয়ার Dictionary Form এর সাথে <b>こと が できます (~ koto ga dekimasu)</b> যোগ করতে হয়। যেমন: আমি জাপানি ভাষা বলতে পারি।</p>",
+    "vocabulary": [
+      {"jp": "夜 (Yoru/Ya)", "bn": "রাত <span class='kanji-badge'>N5 Kanji 65/100</span>"},
+      {"jp": "できます (Dekimasu)", "bn": "পারা / সমর্থ হওয়া"},
+      {"jp": "はなします (Hanashimasu)", "bn": "কথা বলা ➡️ はなすことができます"},
+      {"jp": "うんてんします (Untenshimasu)", "bn": "ড্রাইভ করা"},
+      {"jp": "およぎます (Oyogimasu)", "bn": "সাঁতার কাটা"}
+    ],
+    "quiz": {"q": "'আমি ড্রাইভ করতে পারি' এর সঠিক জাপানি রূপ কোনটি?", "options": ["Untensuru koto ga dekimasu", "Untenshima koto ga dekimasu", "Untenshite ga dekimasu"], "correct": 0}
+  },
+  {
+    "id": 56,
+    "title": "লেসন ৫৬: N5 শখের কানজি ও নিজের শখ প্রকাশ (~ Shumi wa ~ Koto desu)",
+    "grammar": "<h3>নিজের শখ বা Hobby প্রকাশ করা</h3><p>নিজের শখ কী তা সুনির্দিষ্টভাবে বলতে <b>[Shumi wa] + [Verb Dictionary Form] + [koto desu]</b> প্যাটার্ন ব্যবহার করা হয়। যেমন: আমার শখ গান শোনা (Shumi wa ongaku o kiku koto desu)।</p>",
+    "vocabulary": [
+      {"jp": "趣味 (Shumi)", "bn": "শখ <span class='kanji-badge'>N5 Kanji 66/100</span>"},
+      {"jp": "しゅみ (Shumi)", "bn": "শখ (Hobby)"},
+      {"jp": "うたを歌います (Uta o utaimasu)", "bn": "গান গাওয়া ➡️ うたをうたうこと"},
+      {"jp": "しゃしんを撮ります (Shashin o torimasu)", "bn": "ছবি তোলা ➡️ しゃしんをとること"},
+      {"jp": "え (E)", "bn": "ছবি / পেইন্টিং"}
+    ],
+    "quiz": {"q": "নিজের শখ প্রকাশ করার সময় ক্রিয়ার কোন রূপটি ব্যবহৃত হয়?", "options": ["Te-form", "Nai-form", "Dictionary form"], "correct": 2}
+  },
+  {
+    "id": 57,
+    "title": "লেসন ৫৭: N5 পূর্ববর্তী সময়ের কানজি ও কাজের আগের সময় (~ Mae ni)",
+    "grammar": "<h3>কোনো কাজ করার আগের সময় প্রকাশ</h3><p>কোনো কাজ করার 'আগে' অন্য একটি কাজ করা বোঝাতে ক্রিয়ার Dictionary Form এর সাথে <b>まえ に (~ mae ni)</b> যোগ করতে হয়। নাউনের ক্ষেত্রে Noun + no + mae ni হয়। যেমন: খাওয়ার আগে হাত ধুই।</p>",
+    "vocabulary": [
+      {"jp": "前 (Mae/Zen)", "bn": "আগে / পূর্বে <span class='kanji-badge'>N5 Kanji 67/100</span>"},
+      {"jp": "ねます (Nemasu)", "bn": "ঘুমানো ➡️ ねるまえに"},
+      {"jp": "あらいます (Araimasu)", "bn": "ধোয়া (Wash করা)"},
+      {"jp": "おいのり (Oinori)", "bn": "প্রার্থনা"},
+      {"jp": "しょくじ (Shokuji)", "bn": "খাবার / আহার"}
+    ],
+    "quiz": {"q": "'ঘুমানোর আগে' এর সঠিক জাপানি রূপ কোনটি হবে?", "options": ["Neru mae ni", "Nemasu mae ni", "Nete mae ni"], "correct": 0}
+  },
+  {
+    "id": 58,
+    "title": "লেসন ৫৮: N5 ক্রিয়ার Ta-form এর সূচনা ও অভিজ্ঞতা প্রকাশ (~ Ta koto ga aru)",
+    "grammar": "<h3>অতীতের কোনো অভিজ্ঞতা প্রকাশ করা</h3><p>ক্রিয়ার Ta-form হলো ইনফরমাল অতীত কাল (এটি Te-form এর মতোই পরিবর্তিত হয়, শুধু te এর জায়গায় ta বসে)। অতীতে কোনো কাজ করার অভিজ্ঞতা আছে বোঝাতে Ta-form এর সাথে <b>こと が あります (~ ta koto ga arimasu)</b> যোগ হয়। যেমন: আমি জাপানে গিয়েছি (জাপান যাওয়ার অভিজ্ঞতা আছে)।</p>",
+    "vocabulary": [
+      {"jp": "一度 (Ichido)", "bn": "একবার <span class='kanji-badge'>N5 Kanji 68/100</span>"},
+      {"jp": "いきました (Ikimashita)", "bn": "গিয়েছিলাম ➡️ いった（Ta-form）"},
+      {"jp": "あります (Arimasu)", "bn": "আছে ➡️ いったことがあります"},
+      {"jp": "ふじさん (Fujisan)", "bn": "মাউন্ট ফুজি"},
+      {"jp": "うま (Uma)", "bn": "ঘোড়া (যেমন: ঘোড়ায় চড়ার অভিজ্ঞতা)"}
+    ],
+    "quiz": {"q": "'আমি মাউন্ট ফুজি দেখেছি (দেখার অভিজ্ঞতা আছে)' এর সঠিক রূপ কোনটি?", "options": ["Fujisan o mita koto ga arimasu", "Fujisan o miru koto ga arimasu", "Fujisan o mite koto ga arimasu"], "correct": 0}
+  },
+  {
+    "id": 59,
+    "title": "লেসন ৫৯: N5 ক্রিয়ার Ta-form এর ধারাবাহিক কাজ (~ Tari, ~ Tari shimasu)",
+    "grammar": "<h3>একাধিক কাজের তালিকা থেকে নমুনা দেওয়া</h3><p>যখন অনেকগুলো কাজের মধ্য থেকে ২/৩টি কাজের উদাহরণ দেওয়া হয় (নির্দিষ্ট কোনো ক্রমানুসারে নয়), তখন ক্রিয়ার Ta-form এর সাথে <b>り (~ ri)</b> যোগ করা হয় এবং শেষে shimasu বসে। যেমন: রবিবারে বই পড়ি, সিনেমা দেখি ইত্যাদি করি।</p>",
+    "vocabulary": [
+      {"jp": "日曜日 (Nichiyoubi)", "bn": "রবিবার <span class='kanji-badge'>N5 Kanji 69/100</span>"},
+      {"jp": "テニス (Tenisu)", "bn": "টেনিস খেলা"},
+      {"jp": "かいもの (Kaimono)", "bn": "কেনাকাটা"},
+      {"jp": "さんぽします (Sanposhimasu)", "bn": "হাঁটাহাঁটি করা"},
+      {"jp": "おんがく (Ongaku)", "bn": "মিউজিক"}
+    ],
+    "quiz": {"q": "একাধিক অনিয়মিত কাজের তালিকা প্রকাশে কোন গ্রামার প্যাটার্ন ব্যবহৃত হয়?", "options": ["~Te, ~Te", "~Tari, ~Tari shimasu", "~Mae ni"], "correct": 1}
+  },
+  {
+    "id": 60,
+    "title": "লেসন ৬০: N5 পরিবর্তনের কানজি ও কোনো অবস্থা হয়ে ওঠা (~ Narimasu)",
+    "grammar": "<h3>কোনো অবস্থায় রূপান্তরিত হওয়া (Become)</h3><p>কোনো কিছু 'হয়ে ওঠা' বোঝাতে <b>なります (Narimasu)</b> ব্যবহৃত হয়। I-Adjective এর ক্ষেত্রে i বাদ দিয়ে `ku narimasu` (যেমন: Samu-ku narimasu = ঠান্ডা হয়ে যাচ্ছে) এবং Na-Adjective বা Noun এর শেষে `ni narimasu` বসে (যেমন: Genki ni narimasu = সুস্থ হয়ে উঠছে)।</p>",
+    "vocabulary": [
+      {"jp": "化 (Ka/Kei)", "bn": "পরিবর্তন / রূপান্তর <span class='kanji-badge'>N5 Kanji 70/100</span>"},
+      {"jp": "なります (Narimasu)", "bn": "হয়ে ওঠা (To become)"},
+      {"jp": "さむい (Samui)", "bn": "ঠান্ডা ➡️ さむくなります"},
+      {"jp": "げんき [な] (Genki [na])", "bn": "সুস্থ ➡️ げんきになります"},
+      {"jp": "もうすぐ (Mousugu)", "bn": "খুব শীঘ্রই"}
+    ],
+    "quiz": {"q": "'সুস্থ হয়ে ওঠা' (Genki) এর সঠিক জাপানি রূপ কোনটি?", "options": ["Genki ku narimasu", "Genki ni narimasu", "Genki de narimasu"], "correct": 1}
+  }
+,
+  {
+    "id": 61,
+    "title": "লেসন ৬১: N5 চিন্তার কানজি ও মতামত প্রকাশ করা (~ To omoimasu)",
+    "grammar": "<h3>নিজের মতামত বা ধারণা প্রকাশ করা</h3><p>কোনো বিষয়ে 'আমি মনে করি যে...' বা নিজের মতামত প্রকাশ করতে প্লেইন ফর্মের (Plain Form) সাথে <b>と思います (~ to omoimasu)</b> যোগ করতে হয়। যেমন: আমি মনে করি আগামীকাল বৃষ্টি হবে (Ashita ame ga furu to omoimasu)।</p>",
+    "vocabulary": [
+      {"jp": "思 (Omo/Shi)", "bn": "চিন্তা করা / মনে করা <span class='kanji-badge'>N5 Kanji 71/100</span>"},
+      {"jp": "おもいます (Omoimasu)", "bn": "মনে করা / ভাবা"},
+      {"jp": "ぶっか (Bukka)", "bn": "নিত্যপ্রয়োজনীয় জিনিসের দাম (Cost of living)"},
+      {"jp": "高い (Takai)", "bn": "দামি / চড়া ➡️ たかいとおもいます"},
+      {"jp": "にほん (Nihon)", "bn": "জাপান"}
+    ],
+    "quiz": {"q": "'আমি মনে করি দাম বেশি' এর সঠিক জাপani রূপ কোনটি?", "options": ["Takai to omoimasu", "Takai desu omoimasu", "Takai te omoimasu"], "correct": 0}
+  },
+  {
+    "id": 62,
+    "title": "লেসন ৬২: N5 বলার কানজি ও উক্তি উদ্ধৃত করা (~ To iimasu)",
+    "grammar": "<h3>কেউ কিছু বলেছে তা প্রকাশ করা</h3><p>কেউ কোনো কথা বলেছে বা তথ্যের উদ্ধৃতি দিতে প্লেইন ফর্মের সাথে <b>と言います (~ to iimasu)</b> বসে। যেমন: সে বলেছে যে সে যাবে (Kare wa iku to iimashita)। এছাড়া কোনো জিনিসকে 'এই নামে ডাকা হয়' বোঝাতেও এটি বসে।</p>",
+    "vocabulary": [
+      {"jp": "言 (I/Gen)", "bn": "বলা / উক্তি <span class='kanji-badge'>N5 Kanji 72/100</span>"},
+      {"jp": "いいます (Iimasu)", "bn": "বলা ➡️ と言いました (বলেছিল)"},
+      {"jp": "ニュース (Nyuusu)", "bn": "খবর (News)"},
+      {"jp": "れんしゅう (Renshuu)", "bn": "অনুশীলন (Practice)"},
+      {"jp": "じかん (Jikan)", "bn": "সময়"}
+    ],
+    "quiz": {"q": "কানজি '言' এর অর্থ কী?", "options": ["দেখা", "শোনা", "বলা"], "correct": 2}
+  },
+  {
+    "id": 63,
+    "title": "লেসন ৬৩: N5 কথার কানji ও ভাষার ব্যবহার (Nihongo de ~)",
+    "grammar": "<h3>কোনো ভাষায় কিছু প্রকাশ বা নিশ্চিত করা</h3><p>কোনো বাক্য বা শব্দ নির্দিষ্ট কোনো ভাষায় কী বলা হয় তা জানতে বা জানাতে এই প্যাটার্ন বসে। যেমন: 'ধন্যবাদ' কে জাপানি ভাষায় 'Arigatou' বলে (Arigatou wa Nihongo de nan to iimasu ka?)।</p>",
+    "vocabulary": [
+      {"jp": "話 (Hana/Wa)", "bn": "কথা / গল্প <span class='kanji-badge'>N5 Kanji 73/100</span>"},
+      {"jp": "はなします (Hanashimasu)", "bn": "কথা বলা"},
+      {"jp": "えいご (Eigo)", "bn": "ইংরেজি ভাষা"},
+      {"jp": "べんり [な] (Benri [na])", "bn": "সুবিধাজনক"},
+      {"jp": "ほんとう (Hontou)", "bn": "সত্যি / আসলেই"}
+    ],
+    "quiz": {"q": "'কথা বলা' এর জাপানি কানজি কোনটি?", "options": ["思", "言", "話"], "correct": 2}
+  },
+  {
+    "id": 64,
+    "title": "লেসন ৬৪: N5 পড়ার কানজি এবং মডিফায়ার নাউন প্যাটার্ন (Noun Modifying Clauses)",
+    "grammar": "<h3>পুরো বাক্য দিয়ে কোনো নাউনকে মডিফাই করা</h3><p>জাপানি ভাষায় একটি সম্পূর্ণ প্লেইন ফর্মের বাক্যকে সরাসরি কোনো নাউনের আগে বসিয়ে সেই নাউন সম্পর্কে তথ্য দেওয়া যায়। যেমন: 'যে বইটি আমি গতকাল পড়েছিলাম' ➡️ Kinou yonda hon।</p>",
+    "vocabulary": [
+      {"jp": "読 (Yo/Doku)", "bn": "পড়া <span class='kanji-badge'>N5 Kanji 74/100</span>"},
+      {"jp": "よみます (Yomimasu)", "bn": "পড়া ➡️ 読んだ (পড়েছিল - Plain)"},
+      {"jp": "しんぶん (Shinbun)", "bn": "সংবাদপত্র / পত্রিকা"},
+      {"jp": "ざっし (Zasshi)", "bn": "ম্যাগাজিন"},
+      {"jp": "じしょ (Jisho)", "bn": "অভিধান / ডিকশনারি"}
+    ],
+    "quiz": {"q": "'আমার কেনা গাড়ি' (Kuruma = গাড়ি, Kaimashita = কিনেছিলাম) এর সঠিক রূপ কোনটি?", "options": ["Katta kuruma", "Kaimashita kuruma", "Kae kuruma"], "correct": 0}
+  },
+  {
+    "id": 65,
+    "title": "লেসন ৬৫: N5 শিক্ষার কানজি ও উদ্দেশ্য বাচক ক্রিয়ার রূপ (~ Toki)",
+    "grammar": "<h3>'যখন' বা কোনো নির্দিষ্ট সময়ে কাজ করা</h3><p>কোনো কাজ করার সময় বা 'যখন আমি এটি করি' বোঝাতে প্লেইন ফর্মের সাথে <b>とき (Toki)</b> যোগ করা হয়। যেমন: যখন লাইব্রেরিতে যাই, বই পড়ি (Toshokan e iku toki, hon o yomimasu)।</p>",
+    "vocabulary": [
+      {"jp": "学 (Mana/Gaku)", "bn": "শিক্ষা / অধ্যায়ন <span class='kanji-badge'>N5 Kanji 75/100</span>"},
+      {"jp": "とき (Toki)", "bn": "সময় / যখন (When)"},
+      {"jp": "こどものとき (Kodomo no toki)", "bn": "ছোটবেলায় / যখন শিশু ছিলাম"},
+      {"jp": "がくせい (Gakusei)", "bn": "ছাত্র / শিক্ষার্থী"},
+      {"jp": "だいがく (Daigaku)", "bn": "বিশ্ববিদ্যালয়"}
+    ],
+    "quiz": {"q": "'যখন লাইব্রেরিতে যাই' (Library = Toshokan, Go = Iku) এর সঠিক রূপ কোনটি?", "options": ["Toshokan e iku toki", "Toshokan e ikimasu toki", "Toshokan e itte toki"], "correct": 0}
+  },
+  {
+    "id": 66,
+    "title": "লেসন ৬৬: N5 স্কুলের কানজি এবং অনুমিত শর্ত বা সম্ভাবনা (~ To)",
+    "grammar": "<h3>প্রাকৃতিক বা অনিবার্য শর্ত প্রকাশ (If / When)</h3><p>কোনো কাজ করলে প্রাকৃতিকভাবেই বা অনিবার্যভাবে আরেকটি ঘটনা ঘটবে বোঝালে প্রথম ক্রিয়ার ডিকশনারি ফর্মের সাথে <b>と (To)</b> যোগ করা হয়। এর অর্থ: 'এটি করলেই ওটি হয়'। যেমন: এই বোতামটি চাপলে টাকা বের হবে।</p>",
+    "vocabulary": [
+      {"jp": "校 (Koo)", "bn": "স্কুল / প্রতিষ্ঠান <span class='kanji-badge'>N5 Kanji 76/100</span>"},
+      {"jp": "がっこう (Gakkou)", "bn": "স্কুল"},
+      {"jp": "おします (Oshimasu)", "bn": "ধাক্কা দেওয়া / পুশ করা ➡️ おすと"},
+      {"jp": "みぎ (Migi)", "bn": "ডান দিক"},
+      {"jp": "まがります (Magarimasu)", "bn": "মোড় নেওয়া / টার্ন করা"}
+    ],
+    "quiz": {"q": "'ডানে মোড় নিলেই' (Magaru = মোড় নেওয়া) এর সঠিক রূপ কোনটি?", "options": ["Magaru to", "Magarimasu to", "Magatte to"], "correct": 0}
+  },
+  {
+    "id": 67,
+    "title": "লেসন ৬৭: N5 অগ্রগামী কানজি ও উপহার আদান-প্রদান (~ Kuremasu)",
+    "grammar": "<h3>কেউ আমাকে কোনো কিছু দেওয়া</h3><p>লেসন ২৪ এ আমরা শিখেছিলাম কাউকে কিছু দেওয়া (Agemasu)। কিন্তু অন্য কেউ যখন <b>আমাকে বা আমার পরিবারের কাউকে</b> কোনো কিছু উপহার দেয়, তখন Agemasu না বসে <b>くれます (Kuremasu)</b> বসে। দাতা + wa + আমাকে + ga + বস্তু + o kuremasu।</p>",
+    "vocabulary": [
+      {"jp": "先 (Saki/Sen)", "bn": "আগে / অগ্রগামী / ভবিষ্যৎ <span class='kanji-badge'>N5 Kanji 77/100</span>"},
+      {"jp": "せんせい (Sensei)", "bn": "শিক্ষক / স্যার"},
+      {"jp": "くれます (Kuremasu)", "bn": "দেওয়া (আমাকে বা আমার পরিবারকে)"},
+      {"jp": "おねえさん (Oneesan)", "bn": "বড় বোন"},
+      {"jp": "ネクタイ (Nekutai)", "bn": "নেকটাই / টাই"}
+    ],
+    "quiz": {"q": "'শিক্ষক আমাকে বই দিয়েছেন' এর সঠিক ক্রিয়া কোনটি হবে?", "options": ["Agemashita", "Kuremashita", "Moraimashita"], "correct": 1}
+  },
+  {
+    "id": 68,
+    "title": "লেসন ৬৮: N5 জন্মের কানজি এবং উপকার করার Te-form (~ Te agemasu/kuremasu)",
+    "grammar": "<h3>কারো জন্য কোনো কাজ বা উপকার করে দেওয়া</h3><p>কোনো বস্তু না দিয়ে যখন কারো জন্য কোনো কাজ বা অ্যাকশন করে দেওয়া হয়, তখন ক্রিয়ার Te-form এর সাথে agemasu/kuremasu/moraimasu বসে। যেমন: আমি বন্ধুকে রান্না করে দিয়েছি (Tomodachi ni ryouri o shite agemashita)।</p>",
+    "vocabulary": [
+      {"jp": "生 (Uma/Sei)", "bn": "জন্ম / জীবন <span class='kanji-badge'>N5 Kanji 78/100</span>"},
+      {"jp": "たんじょうび (Tanjoubi)", "bn": "জন্মদিন"},
+      {"jp": "てつだいます (Tetsudaimasu)", "bn": "সাহায্য করা ➡️ てつだってあげます"},
+      {"jp": "つくります (Tsukurimasu)", "bn": "তৈরি করা / রান্না করা"},
+      {"jp": "きっぷ (Kippu)", "bn": "টিকিট"}
+    ],
+    "quiz": {"q": "'সাহায্য করে দেওয়া' (Tetsudaimasu = সাহায্য করা) এর সঠিক রূপ কোনটি?", "options": ["Tetsudai agemasu", "Tetsudatte agemasu", "Tetsudate kuremasu"], "correct": 1}
+  },
+  {
+    "id": 69,
+    "title": "লেসন ৬৯: N5 বন্ধুর কানজি এবং অনুমিত শর্তের অতীত রূপ (~ Tara)",
+    "grammar": "<h3>সাধারণ বা কাল্পনিক শর্ত প্রকাশ (If / When)</h3><p>যেকোনো সাধারণ শর্ত বা 'যদি এটি হয় তবে ওটি করব' প্রকাশ করতে ক্রিয়ার অতীত রূপ বা Ta-form এর সাথে <b>ら (Ra)</b> যোগ করা হয়। একে `Tara-form` বলে। যেমন: টাকা থাকলে গাড়ি কিনব (Okane ga attara, kuruma o kaimasu)।</p>",
+    "vocabulary": [
+      {"jp": "友 (Tomo/Yuu)", "bn": "বন্ধু <span class='kanji-badge'>N5 Kanji 79/100</span>"},
+      {"jp": "ともだち (Tomodachi)", "bn": "বন্ধু"},
+      {"jp": "あったら (Attara)", "bn": "যদি থাকে (Arimasu এর Tara-form)"},
+      {"jp": "やすみ (Yasumi)", "bn": "ছুটি / ছুটির দিন"},
+      {"jp": "ひま [な] (Hima [na])", "bn": "অবসর / ফ্রি সময়"}
+    ],
+    "quiz": {"q": "'যদি আগামীকাল ছুটি থাকে' (Yasumi = ছুটি, Desu ➡️ Dattara) এর সঠিক রূপ কোনটি?", "options": ["Yasumi dattara", "Yasumi tara", "Yasumi naraba"], "correct": 0}
+  },
+  {
+    "id": 70,
+    "title": "লেসন ৭০: N5 বইয়ের কানজি এবং যদিও বা বিপরীত শর্ত প্রকাশ (~ Te mo)",
+    "grammar": "<h3>'যদিও' বা বিপরীত শর্ত প্রকাশ করা (Even if)</h3><p>পূর্ববর্তী লেসনের বিপরীত হিসেবে, 'যদিও এটি হয়, তবুও ওটি করব না/হবে না' প্রকাশ করতে ক্রিয়ার Te-form এর সাথে <b>も (Mo)</b> যোগ করতে হয়। যেমন: যদিও বৃষ্টি হয়, আমি যাব (Ame ga futte mo, ikimasu)।</p>",
+    "vocabulary": [
+      {"jp": "本 (Hon/Pon)", "bn": "বই / মূল / কাউন্টার <span class='kanji-badge'>N5 Kanji 80/100</span>"},
+      {"jp": "ほん (Hon)", "bn": "বই"},
+      {"jp": "ふっても (Futte mo)", "bn": "যদিও বৃষ্টি পড়ে (Furimasu ➡️ Futte mo)"},
+      {"jp": "たかくても (Takakute mo)", "bn": "দামি হলেও (Takai ➡️ Takakute mo)"},
+      {"jp": "かんがえます (Kangaemasu)", "bn": "চিন্তা করা / বিবেচনা করা"}
+    ],
+    "quiz": {"q": "'দামি হলেও কিনব' এর সঠিক জাপানি রূপ কোনটি?", "options": ["Takai mo kaimasu", "Takakute mo kaimasu", "Takari mo kaimasu"], "correct": 1}
+  }
