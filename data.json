@@ -1279,20 +1279,7 @@
       {"jp": "まちがい (Machigai)", "bn": "ভুল / ত্রুটি"}
     ],
     "quiz": {"q": "'খাবারটি ভালো কিনা জানি না' এর সঠিক জাপানি রূপ কোনটি?", "options": ["Ii ka dou ka wakarimasen", "Ii ka wakarimasen", "Ii node wakarimasen"], "correct": 0}
-  },
-  {
-    "id": 97,
-    "title": "লেসন ৯৭: জাপানিজ কাজের পর অন্য কাজের অবস্থা (~ Te mimasu)",
-    "grammar": "<h3>পরীক্ষামূলকভাবে কোনো কাজ করে দেখা (Try to do)</h3><p>কোনো কাজ আগে কখনো করা হয়নি, তাই কৌতুহলবশত বা টেস্ট করার জন্য 'একবার করে দেখা' বা চেষ্টা করা বোঝালে ক্রিয়ার Te-form এর সাথে <b>みます (~ mimasu)</b> যোগ করা হয়। যেমন: আমি জাপানি খাবার খেয়ে দেখব (Tabete mimasu)।</p>",
-    "vocabulary": [
-      {"jp": "みます (Mimasu)", "bn": "করে দেখা / চেষ্টা করা (Try)"},
-      {"jp": "はきます (Hakimasu)", "bn": "প্যান্ট/জুতো পরা ➡️ はいてみます (পরে দেখা)"},
-      {"jp": "きもの (Kimono)", "bn": "কিমোনো (জাপানি ঐতিহ্যবাহী পোশাক)"},
-      {"jp": "もういちど (Mou ichido)", "bn": "আরেকবার / পুনরায়"},
-      {"jp": "かんがえます (Kangaemasu)", "bn": "চিন্তা করা ➡️ かんがえてみます"}
-    ],
-    "quiz": {"q": "'আমি আরেকবার ভেবে দেখব' এর সঠিক রূপ কোনটি হবে?", "options": ["Mou ichido kangaemasu", "Mou ichido kangaete mimasu", "Mou ichido kangaete kudasai"], "correct": 1}
-  },
+  }
   {
     "id": 98,
     "title": "লেসন ৯৮: জাপানিজ নম্র বিনতি বা বিনীত অনুরোধ (~ Te itadakemasen ka)",
