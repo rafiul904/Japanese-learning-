@@ -1,4 +1,22 @@
-let roadmapData = [];
+// ১. এখানে আপনার ডাটা সরাসরি পেস্ট করুন (অ্যারে ফরম্যাটে)
+let roadmapData = [
+  {
+    "id": 97,
+    "title": "লেসন ৯৭: জাপানিজ কাজের পর অন্য কাজের অবস্থা (~ Te mimasu)",
+    "grammar": "<h3>পরীক্ষামূলকভাবে কোনো কাজ করে দেখা (Try to do)</h3><p>কোনো কাজ আগে কখনো করা হয়নি, তাই কৌতুহলবশত বা টেস্ট করার জন্য 'একবার করে দেখা' বা চেষ্টা করা বোঝালে ক্রিয়ার Te-form এর সাথে <b>みます (~ mimasu)</b> যোগ করা হয়। যেমন: আমি জাপানি খাবার খেয়ে দেখব (Tabete mimasu)।</p>",
+    "vocabulary": [
+      {"jp": "みます (Mimasu)", "bn": "করে দেখা / চেষ্টা করা (Try)"},
+      {"jp": "はきます (Hakimasu)", "bn": "প্যান্ট/জুতো পরা ➡️ はいてみます (পরে দেখা)"},
+      {"jp": "きもの (Kimono)", "bn": "কিমোনো (জাপানি ঐতিহ্যবাহী পোশাক)"},
+      {"jp": "もういちど (Mou ichido)", "bn": "আরেকবার / পুনরায়"},
+      {"jp": "かん가えます (Kangaemasu)", "bn": "চিন্তা করা ➡️ かん가えてみます"}
+    ],
+    // লক্ষ্য করুন: JSON-এ "correct": 1 ছিল, এখানে সাবমিট ফাংশনের সাথে মিল রাখার জন্য "answer": 1 করে দেওয়া হয়েছে
+    "quiz": {"q": "'আমি আরেকবার ভেবে দেখব' এর সঠিক রূপ কোনটি হবে?", "options": ["Mou ichido kangaemasu", "Mou ichido kangaete mimasu", "Mou ichido kangaete kudasai"], "answer": 1}
+  }
+  // আপনার অন্যান্য লেসনগুলো (যেমন লেসন ১, ২, ৩...) এভাবে কমা দিয়ে নিচে নিচে বসিয়ে দেবেন।
+];
+
 let userStats = { unlockedLessons: [0], completedLessons: [], currentActiveLesson: 0 };
 
 if (localStorage.getItem('nihongo_quest_pro_stats')) {
@@ -8,19 +26,16 @@ if (localStorage.getItem('nihongo_quest_pro_stats')) {
 let selectedOptionIndex = null;
 let isAnswerChecked = false;
 
-// ডাটাবেজ ফাইল লোড করার ফাংশন (পাথ এবং সিনট্যাক্স এরর ঠিক করা হয়েছে)
-async function loadDatabase() {
+// ২. পরিবর্তন: fetch করার ঝামেলা বাদ দিয়ে সরাসরি initApp() কল করা হয়েছে
+function loadDatabase() {
     try {
-        // Vercel ও লোকালহোস্ট দুই জায়গাতেই ফাইল চেনার জন্য ফুল পাথ তৈরি করা হয়েছে
-        const jsonPath = `${window.location.origin}/data.json`;
-        const response = await fetch(jsonPath); 
-        
-        if (!response.ok) throw new Error("Network response was not ok");
-        roadmapData = await response.json();
+        if (!roadmapData || roadmapData.length === 0) {
+            throw new Error("রোডম্যাপে কোনো ডাটা পাওয়া যায়নি!");
+        }
         initApp();
     } catch (error) {
-        console.error("ডাটাবেজ লোড হয়নি:", error);
-        document.getElementById('lesson-title').innerText = "ডাটাবেজ ফাইল (data.json) পাওয়া যায়নি!";
+        console.error("ডাটাবেজ লোড হয়নি:", error);
+        document.getElementById('lesson-title').innerText = "কোনো লেসন ডাটা পাওয়া যায়নি!";
     }
 }
 
@@ -106,7 +121,7 @@ function loadLesson(index) {
         vocabContainer.appendChild(card);
     });
 
-    loadQuiz(lesson, index); 
+    loadQuiz(lesson, index);
 }
 
 function loadQuiz(lesson, index) {
@@ -197,7 +212,5 @@ function resetProgress() {
     }
 }
 
-// অ্যাপ চালু হওয়ার সাথে সাথে ডাটাবেজ কল করার ইভেন্ট
-window.addEventListener('DOMContentLoaded', () => {
-    loadDatabase();
-});
+// আপনার HTML ফাইলে যদি ডোম লোড হওয়ার পর loadDatabase() কল করা না থাকে, তবে নিচের লাইনটি আনকমেন্ট করতে পারেন:
+// window.onload = loadDatabase;
