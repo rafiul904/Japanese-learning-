@@ -136,3 +136,142 @@
     ],
     "quiz": {"q": "জাপানিজে 'এখানে ধূমপান করা নিষেধ' বোঝাতে কোনটি ব্যবহার করবেন?", "options": ["Suite kudasai", "Suite wa ikenai", "Suitemo ii desu"], "correct": 1}
   }
+,
+  {
+    "id": 12,
+    "title": "লেসন ১৩: N4 ক্রিয়ার রূপান্তর - Nai-Form সূচনা",
+    "grammar": "<p>N4 লেভেলের আরেকটি অত্যন্ত গুরুত্বপূর্ণ রূপান্তর হলো <b>Nai-Form (ない形)</b>, যা দিয়ে না-বোধক বাক্য তৈরি করা হয়। গ্রুপ-১ এর ভার্বগুলোর শেষে ます (masu) এর আগের 'i' সাউন্ড পরিবর্তন হয়ে 'a' সাউন্ড হয় এবং শেষে ない (nai) যুক্ত হয়।</p><ul><li>Kaimasu (কিনি) ➡️ Kawanai (কিনি না)</li><li>Ikimasu (যাই) ➡️ Ikanai (যাই না)</li></ul>",
+    "vocabulary": [
+      {"jp": "書きます (Kakimasu)", "bn": "লেখা <span class='kanji-badge'>N5 Kanji</span>"},
+      {"jp": "書かない (Kakanai)", "bn": "না লেখা"},
+      {"jp": "話します (Hanashimasu)", "bn": "কথা বলা <span class='kanji-badge'>N5 Kanji</span>"},
+      {"jp": "話さない (Hanasanai)", "bn": "কথা না বলা"}
+    ],
+    "quiz": {"q": "'Ikimasu' (যাই) এর সঠিক Nai-Form কোনটি?", "options": ["Ikainai", "Ikanai", "Ikitanai"], "correct": 1}
+  },
+  {
+    "id": 13,
+    "title": "লেসন ১৪: N4 ব্যাকরণ - অনুরোধ না করা (~Nai de kudasai)",
+    "grammar": "<p>কাউকে কোনো কাজ 'না করার' জন্য ভদ্রভাবে অনুরোধ করতে ভার্বের Nai-form এর সাথে <b>でください (de kudasai)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Ikanai de kudasai (দয়া করে যাবেন না)।</li><li><b>উদাহরণ:</b> Shashin o toranai de kudasai (দয়া করে ছবি তুলবেন pressed না)।</li></ul>",
+    "vocabulary": [
+      {"jp": "写真 (Shashin)", "bn": "ছবি <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "撮ります (Torimasu)", "bn": "ছবি তোলা"},
+      {"jp": "忘れます (Wasuremasu)", "bn": "ভুলে যাওয়া"}
+    ],
+    "quiz": {"q": "জাপানিজে 'দয়া করে ভুলে যাবেন না' (Wasuremasu -> Wasurenai) এর রূপ কী হবে?", "options": ["Wasuremasu de kudasai", "Wasurenai de kudasai", "Wasurete kudasai"], "correct": 1}
+  },
+  {
+    "id": 14,
+    "title": "লেসন ১৫: N4 ব্যাকরণ - বাধ্যবাধকতা (~Nakereba narimasen)",
+    "grammar": "<p>কোনো কাজ 'করতেই হবে' বা করা বাধ্যতামূলক বোঝাতে ভার্বের Nai-form থেকে শেষ অক্ষরের い (ui) বাদ দিয়ে <b>ければなりません (kereba narimasen)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Ikanakereba narimasen (যেতেই হবে)।</li><li><b>উদাহরণ:</b> Tabenakereba narimasen (খেতেই হবে)।</li></ul>",
+    "vocabulary": [
+      {"jp": "薬 (Kusuri)", "bn": "ওষুধ <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "飲みます (Nomimasu)", "bn": "পান করা/ওষুধ খাওয়া <span class='kanji-badge'>N5 Kanji</span>"},
+      {"jp": "毎日 (Mainichi)", "bn": "প্রতিদিন"}
+    ],
+    "quiz": {"q": "'প্রতিদিন ওষুধ খেতেই হবে' এর সঠিক জাপানিজ রূপ কোনটি?", "options": ["Mainichi kusuri o nomimasu", "Mainichi kusuri o nomanakereba narimasen", "Mainichi kusuri o nomitai desu"], "correct": 1}
+  },
+  {
+    "id": 15,
+    "title": "লেসন ১৬: N4 কানজি - শরীর ও স্বাস্থ্য (Body Parts)",
+    "grammar": "<p>N4 লেভেলে ডাক্তার বা হাসপাতালের কথোপকথনের জন্য শরীরের প্রধান অঙ্গগুলোর কানজি জানা জরুরি। আজ আমরা শিখব <b>目 (চোখ)</b>, <b>手 (হাত)</b>, এবং <b>足 (পা/লেগ)</b>।</p><ul><li>目 (Me - চোখ)</li><li>手 (Te - হাত) ➡️上手 (Joozu - দক্ষ/পারদর্শী)</li></ul>",
+    "vocabulary": [
+      {"jp": "目 (Me)", "bn": "চোখ <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "手 (Te)", "bn": "হাত <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "足 (Ashi)", "bn": "পা <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "医者 (Isha)", "bn": "ডাক্তার <span class='kanji-badge'>N4 Kanji</span>"}
+    ],
+    "quiz": {"q": "‘手’ এই কানজিটির অর্থ কী?", "options": ["চোখ", "হাত", "পা"], "correct": 1}
+  },
+  {
+    "id": 16,
+    "title": "লেসন ১৭: N4 ক্রিয়ার রূপান্তর - Dictionary Form",
+    "grammar": "<p>জাপানিজ ডিকশনারিতে ভার্বগুলো যেভাবে থাকে তাকে <b>Dictionary Form (辞書形 - Jishokei)</b> বা Plain Form বলে। বন্ধুবান্ধবদের সাথে ক্যাজুয়াল কথাবার্তায় এটি বসে। গ্রুপ-১ এর ます (masu) এর আগের 'i' সাউন্ড পরিবর্তন হয়ে 'u' সাউন্ডে রূপ নেয়।</p><ul><li>Ikimasu (যাই) ➡️ Iku (যাওয়া/যাবে)</li><li>Nomimasu (পান করি) ➡️ Nomu (পান করা)</li></ul>",
+    "vocabulary": [
+      {"jp": "行く (Iku)", "bn": "যাওয়া"},
+      {"jp": "飲む (Nomu)", "bn": "পান করা"},
+      {"jp": "買う (Kau)", "bn": "কেনা"},
+      {"jp": "日本語 (Nihongo)", "bn": "জাপানি ভাষা"}
+    ],
+    "quiz": {"q": "'Hanashimasu' (কথা বলা) এর সঠিক Dictionary Form কোনটি?", "options": ["Hanasu", "Hanashi", "Hanasai"], "correct": 0}
+  },
+  {
+    "id": 17,
+    "title": "লেসন ১৮: N4 ব্যাকরণ - সামর্থ্য বা যোগ্যতা (~Koto ga dekiru)",
+    "grammar": "<p>কোনো কাজ করতে পারা বা সক্ষমতা প্রকাশ করতে ভার্বের Dictionary Form এর সাথে <b>ことができます (koto ga dekiru)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Nihongo o hanasu koto ga dekiru (আমি জাপানিজে কথা বলতে পারি)।</li><li><b>উদাহরণ:</b> Kanji o yomu koto ga dekiru (কানজি পড়তে পারি)।</li></ul>",
+    "vocabulary": [
+      {"jp": "できます (Dekiru)", "bn": "পারা / সক্ষম হওয়া"},
+      {"jp": "話す (Hanasu)", "bn": "কথা বলা"},
+      {"jp": "読む (Yomu)", "bn": "পড়া <span class='kanji-badge'>N5 Kanji</span>"}
+    ],
+    "quiz": {"q": "'আমি জাপানি খাবার খেতে পারি' (Taberu = খাওয়া) - এর সঠিক অনুবাদ কোনটি?", "options": ["Nihon ryori o tabemashita", "Nihon ryori o taberu koto gaできます", "Nihon ryori o tabetai desu"], "correct": 1}
+  } 
+  ,
+  {
+    "id": 18,
+    "title": "লেসন ১৯: N4 ক্রিয়ার রূপান্তর - Ta-Form (অতীত রূপ)",
+    "grammar": "<p>N4 লেভেলের আরেকটি প্রধান রূপান্তর হলো <b>Ta-Form (た形)</b>। এটি মূলত Te-Form এর মতোই কাজ করে, শুধু 'te' বা 'de' এর জায়গায় 'ta' বা 'da' বসে। এটি অনানুষ্ঠানিক অতীত কাল এবং বিভিন্ন ব্যাকরণগত প্যাটার্নে ব্যবহৃত হয়।</p><ul><li>Kaimasu (Te-form: Katte) ➡️ Katta (কিনেছিলাম)</li><li>Ikimasu (Te-form: Itte) ➡️ Itta (গিয়েছিলাম)</li></ul>",
+    "vocabulary": [
+      {"jp": "行った (Itta)", "bn": "গিয়েছিলাম"},
+      {"jp": "買った (Katta)", "bn": "কিনেছিলাম"},
+      {"jp": "見た (Mita)", "bn": "দেখেছিলাম"},
+      {"jp": "食べた (Tabeta)", "bn": "খেয়েছিলাম"}
+    ],
+    "quiz": {"q": "'Tabemasu' (খাওয়া) এর সঠিক Ta-Form কোনটি?", "options": ["Tabeta", "Tabetta", "Tabemashita"], "correct": 0}
+  },
+  {
+    "id": 19,
+    "title": "লেসন ২০: N4 ব্যাকরণ - অতীতের অভিজ্ঞতা (~Koto ga aru)",
+    "grammar": "<p>জীবনে কোনো কাজ করার অভিজ্ঞতা বা এক্সপেরিয়েন্স আছে কি না তা প্রকাশ করতে ভার্বের Ta-form এর সাথে <b>ことがあります (koto ga aru)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Nihon ni itta koto ga arimasu (আমি জাপানে গিয়েছি / আমার জাপানে যাওয়ার অভিজ্ঞতা আছে)।</li><li><b>উদাহরণ:</b> Sushi o tabeta koto ga arimasu (আমি সুশি খেয়েছি)।</li></ul>",
+    "vocabulary": [
+      {"jp": "日本 (Nihon)", "bn": "জাপান <span class='kanji-badge'>N5 Kanji</span>"},
+      {"jp": "すし (Sushi)", "bn": "সুশি (জাপানি খাবার)"},
+      {"jp": "一度 (Ichido)", "bn": "একবার <span class='kanji-badge'>N4 Kanji</span>"}
+    ],
+    "quiz": {"q": "'আমি ফুজি পর্বত আরোহণ করেছি' (登った = Nobotta) - এর সঠিক রূপ কী হবে?", "options": ["Fuji-san ni noborimasu", "Fuji-san ni nobotta koto ga arimasu", "Fuji-san ni noboritai desu"], "correct": 1}
+  },
+  {
+    "id": 20,
+    "title": "লেসন ২১: N4 ব্যাকরণ - পরামর্শ দেওয়া বা নেওয়া (~Ta hooga ii)",
+    "grammar": "<p>কাউকে কোনো শক্তিশালী পরামর্শ বা উপদেশ দিতে (\"এটি করা আপনার জন্য ভালো হবে\") ভার্বের Ta-form এর সাথে <b>ほうがいいです (hooga ii desu)</b> যোগ করা হয়।</p><ul><li><b>উদাহরণ:</b> Isha ni itta hooga ii desu (ডাক্তারের কাছে যাওয়া আপনার জন্য ভালো হবে)।</li><li><b>উদাহরণ:</b> Kusuri o nonda hooga ii desu (ওষুধ খাওয়া ভালো হবে)।</li></ul>",
+    "vocabulary": [
+      {"jp": "ほうがいい (Hooga ii)", "bn": "ভালো হবে / উচিত"},
+      {"jp": "早く (Hayaku)", "bn": "তাড়াতাড়ি / দ্রুত"},
+      {"jp": "寝ます (Nemasu)", "bn": "ঘুমানো"}
+    ],
+    "quiz": {"q": "'আপনার তাড়াতাড়ি ঘুমানো উচিত' (寝た = Neta) - এর সঠিক জাপানিজ কোনটি?", "options": ["Hayaku nemasu", "Hayaku neta hooga ii desu", "Hayaku netai desu"], "correct": 1}
+  },
+  {
+    "id": 21,
+    "title": "লেসন ২২: N4 কানজি - যাতায়াত ও যানবাহন (Transport)",
+    "grammar": "<p>N4 লেভেলের দৈনন্দিন যাতায়াতের জন্য ৩টি অতি প্রয়োজনীয় কানজি হলো <b>車 (গাড়ি)</b>, <b>駅 (স্টেশন)</b>, এবং <b>自 (নিজে)</b>।</p><ul><li>車 (Kuruma - গাড়ি)</li><li>自 + 転 + 車 = 自転車 (Jitensha - সাইকেল)</li><li>駅 (Eki - ট্রেন স্টেশন)</li></ul>",
+    "vocabulary": [
+      {"jp": "車 (Kuruma)", "bn": "গাড়ি <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "駅 (Eki)", "bn": "স্টেশন <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "自転車 (Jitensha)", "bn": "সাইকেল <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "近い (Chikai)", "bn": "কাছে / নিকটবর্তী"}
+    ],
+    "quiz": {"q": "‘自転車’ (Jitensha) শব্দের সঠিক অর্থ কী?", "options": ["গাড়ি", "ট্রেন", "সাইকেল"], "correct": 2}
+  },
+  {
+    "id": 22,
+    "title": "লেসন ২৩: N4 ব্যাকরণ - অনুমিতি ও সম্ভাবনা (~Deshoo)",
+    "grammar": "<p>কোনো বিষয়ে অনুমান করতে বা সম্ভাবনা প্রকাশ করতে (\"হতে পারে / সম্ভবত\") বাক্যের শেষে <b>でしょう (Deshoo)</b> ব্যবহার করা হয়। এটি আবহাওয়া পূর্বাভাসের ক্ষেত্রে প্রচুর ব্যবহৃত হয়।</p><ul><li><b>উদাহরণ:</b> Ashita wa ame ga furu deshoo (আগামীকাল সম্ভবত বৃষ্টি হবে)।</li><li><b>উদাহরণ:</b> Kono shiken wa muzukashii deshoo (এই পরীক্ষাটি সম্ভবত কঠিন হবে)।</li></ul>",
+    "vocabulary": [
+      {"jp": "雨 (Ame)", "bn": "বৃষ্টি <span class='kanji-badge'>N5 Kanji</span>"},
+      {"jp": "明日 (Ashita)", "bn": "আগামীকাল <span class='kanji-badge'>N5 Kanji</span>"},
+      {"jp": "試験 (Shiken)", "bn": "পরীক্ষা <span class='kanji-badge'>N4 Kanji</span>"}
+    ],
+    "quiz": {"q": "'でしょう' (Deshoo) ব্যাকরণটি প্রধানত কী প্রকাশ করতে ব্যবহৃত হয়?", "options": ["অতীত কাল", "অনুরোধ", "অনুমান বা সম্ভাবনা"], "correct": 2}
+  },
+  {
+    "id": 23,
+    "title": "লেসন ২৪: N4 ব্যাকরণ - উদ্ধৃতি ও মতামত (~To omoimasu)",
+    "grammar": "<p>নিজের কোনো মতামত বা চিন্তা প্রকাশ করতে (\"আমি মনে করি যে...\") Plain Form (Dictionary/Nai/Ta form) এর সাথে <b>と思います (to omoimasu)</b> যোগ করা হয়।</p><ul><li><b>উদাহরণ:</b> Kare wa kuru to omoimasu (আমি মনে করি সে আসবে)।</li><li><b>উদাহরণ:</b> Kono Kanji wa yasashii to omoimasu (আমি মনে করি এই কানজিটি সহজ)।</li></ul>",
+    "vocabulary": [
+      {"jp": "思います (Omoimasu)", "bn": "মনে করা / চিন্তা করা"},
+      {"jp": "優しい (Yasashii)", "bn": "সহজ / দয়ালু"},
+      {"jp": "彼 (Kare)", "bn": "সে (পুরুষ) <span class='kanji-badge'>N4 Kanji</span>"}
+    ],
+    "quiz": {"q": "'আমি মনে করি জাপানি ভাষা চমৎকার' (Omoshiroi = চমৎকার) - এর সঠিক গঠন কোনটি?", "options": ["Nihongo wa omoshiroi desu", "Nihongo wa omoshiroi to omoimasu", "Nihongo wa omoshiroi koto ga aru"], "correct": 1}
+  }
