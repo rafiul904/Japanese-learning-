@@ -1,345 +1,278 @@
 [
   {
-    "id": 0,
-    "title": "লেসন ১: হিরাগানা স্বরবর্ণ (Hiragana Basics)",
-    "grammar": "<p>জাপানিজ ভাষার মূল ভিত্তি হিরাগানা। আজকের স্বরবর্ণ: あ(a), い(i), う(u), え(e), お(o)।</p>",
-    "vocabulary": [
-      {"jp": "あ (a)", "bn": "আ"},
-      {"jp": "い (i)", "bn": "ই"},
-      {"jp": "う (u)", "bn": "উ"},
-      {"jp": "え (e)", "bn": "এ"},
-      {"jp": "お (o)", "bn": "ও"}
-    ],
-    "quiz": {"q": "কোন হিরাগানা বর্ণের উচ্চারণ 'u' (উ)?", "options": ["あ", "い", "う"], "correct": 2}
-  },
-  {
     "id": 1,
-    "title": "লেসন ২: কাতাকানা ও বিদেশী শব্দ (Katakana)",
-    "grammar": "<p>বিদেশী শব্দ বা মানুষের নাম লেখার জন্য ব্যবহৃত হয়। যেমন: アメリカ (Amerika - আমেরিকা)।</p>",
+    "title": "লেসন ১: জাপানিজ বর্ণমালা - হিরাগানা (স্বরবর্ণ)",
+    "grammar": "<h3>জাপানি ভাষার প্রথম ধাপ</h3><p>জাপানিজ লেখার জন্য তিনটি বর্ণমালা ব্যবহার করা হয়: হিরাগানা, কাতাকানা এবং কানজি। হিরাগানা হলো খাঁটি জাপানি শব্দ লেখার মূল বর্ণমালা। এই লেসনে আমরা প্রথম ৫টি মূল স্বরবর্ণ শিখব।</p>",
     "vocabulary": [
-      {"jp": "カメラ (Kamera)", "bn": "ক্যামেরা"},
-      {"jp": "パン (Pan)", "bn": "রুটি"},
-      {"jp": "トイレ (Toire)", "bn": "টয়লেট"}
+      {"jp": "あ (A)", "bn": "আ"},
+      {"jp": "い (I)", "bn": "ই"},
+      {"jp": "う (U)", "bn": "উ"},
+      {"jp": "え (E)", "bn": "এ"},
+      {"jp": "お (O)", "bn": "ও"},
+      {"jp": "あい (Ai)", "bn": "ভালোবাসা (Love)"},
+      {"jp": "いえ (Ie)", "bn": "বাড়ি (House)"},
+      {"jp": "うえ (Ue)", "bn": "উপরে (Up/Above)"}
     ],
-    "quiz": {"q": "Katakana প্রধানত কীসের জন্য ব্যবহৃত হয়?", "options": ["জাপানিজ নিজস্ব শব্দ", "বিদেশী লোন-ওয়ার্ড শব্দ", "জাপানিজ ব্যাকরণ"], "correct": 1}
+    "quiz": {"q": "'あい' (Ai) শব্দটির অর্থ কী?", "options": ["বাড়ি", "ভালোবাসা", "উপরে"], "correct": 1}
   },
   {
     "id": 2,
-    "title": "লেসন ৩: N5 কানজি - সংখ্যা (Kanji Numbers)",
-    "grammar": "<p>জাপানিজ চিত্রলিপি বা কানজি। আজ আমরা ১, ২ এবং ৩ এর মৌলিক কানজি ও গণনা শিখব।</p>",
+    "title": "লেসন ২: হিরাগানা - K এবং S লাইনের বর্ণ",
+    "grammar": "<h3>ব্যঞ্জনবর্ণের সূচনা</h3><p>হিরাগানার পরবর্তী দুটি গুরুত্বপূর্ণ লাইন হলো K-লাইন (か, き, く, け, こ) এবং S-লাইন (さ, し, す, せ, そ)। মনে রাখবেন, S-লাইনের দ্বিতীয় বর্ণটি 'Si' না হয়ে 'Shi' (শি) উচ্চারিত হয়।</p>",
     "vocabulary": [
-      {"jp": "一 (Ichi)", "bn": "এক (1) <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "二 (Ni)", "bn": "দুই (2) <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "三 (San)", "bn": "তিন (3) <span class='kanji-badge'>N5 Kanji</span>"}
+      {"jp": "かさ (Kasa)", "bn": "ছাতা"},
+      {"jp": "あき (Aki)", "bn": "শরৎকাল (Autumn)"},
+      {"jp": "すし (Sushi)", "bn": "সুশি (জাপানি খাবার)"},
+      {"jp": "そこ (Soko)", "bn": "ওখানে (Medium Distance)"},
+      {"jp": "うそ (Uso)", "bn": "মিথ্যা (Lie)"}
     ],
-    "quiz": {"q": "‘三’ এই কানজিটির অর্থ কী?", "options": ["১", "২", "৩"], "correct": 2}
+    "quiz": {"q": "জাপানি ভাষায় ছাতা-কে কী বলা হয়?", "options": ["Aki", "Kasa", "Sushi"], "correct": 1}
   },
   {
     "id": 3,
-    "title": "লেসন ৪: N5 ব্যাকরণ - পরিচয় (~Desu)",
-    "grammar": "<p>নিজেকে উপস্থাপন বা পরিচয় দিতে: [Subject] + wa + [Noun] + desu। যেমন: わたしは学生です (আমি ছাত্র)।</p>",
+    "title": "লেসন ৩: হিরাগানা - T, N এবং H লাইনের বর্ণ",
+    "grammar": "<h3>উচ্চারণের বিশেষ নিয়ম</h3><p>T-লাইনে দুটি ব্যতিক্রম আছে: ち (Chi) এবং つ (Tsu)। H-লাইনে ব্যতিক্রম হলো ふ (Fu)। এই বর্ণগুলো জাপানিজ উচ্চারণে অত্যন্ত গুরুত্বপূর্ণ।</p>",
     "vocabulary": [
-      {"jp": "わたし (Watashi)", "bn": "আমি"},
-      {"jp": "がくせい (Gakusei)", "bn": "ছাত্র"},
-      {"jp": "かいしゃいん (Kaishain)", "bn": "চাকরিজীবী"}
+      {"jp": "たこ (Tako)", "bn": "অক্টোপাস"},
+      {"jp": "うち (Uchi)", "bn": "আমার বাড়ি / ভেতর"},
+      {"jp": "なに (Nani)", "bn": "কী? (What?)"},
+      {"jp": "ひと (Hito)", "bn": "মানুষ"},
+      {"jp": "へた (Heta)", "bn": "অদক্ষ (Unskilled)"}
     ],
-    "quiz": {"q": "'আমি ছাত্র' এর সঠিক জাপানিজ বাক্য কোনটি?", "options": ["Watashi wa gakusei desu", "Anata wa gakusei desu", "Gakusei desu watashi"], "correct": 0}
+    "quiz": {"q": "'なに' (Nani) শব্দের বাংলা অর্থ কী?", "options": ["কোথায়", "কী", "কে"], "correct": 1}
   },
   {
     "id": 4,
-    "title": "লেসন ৫: N4 ব্যাকরণ - ইচ্ছা প্রকাশ (~Tai Desu)",
-    "grammar": "<p>কোনো কিছু করার তীব্র ইচ্ছা প্রকাশ করতে ভার্ব বা ক্রিয়ার শেষে <b>~tai desu</b> বসে। যেমন: Tabetai (খেতে চাই)।</p>",
+    "title": "লেসন ৪: হিরাগানা - M, Y, R, W লাইনের বর্ণ",
+    "grammar": "<h3>হিরাগানা বর্ণমালার সমাপ্তি</h3><p>M, Y, R, W লাইনের মাধ্যমে আমাদের মূল হিরাগানা বর্ণমালা শেষ হবে। এর মধ্যে Y লাইনে মাত্র ৩টি বর্ণ (や, ゆ, よ) এবং W লাইনে ২টি বর্ণ (わ, を) রয়েছে। 'ん' (N) হলো একমাত্র একক ব্যঞ্জনবর্ণ।</p>",
     "vocabulary": [
-      {"jp": "たべます (Tabemasu)", "bn": "খাওয়া"},
-      {"jp": "のみます (Nomimasu)", "bn": "পান করা"},
-      {"jp": "たべたい (Tabetai)", "bn": "খেতে চাওয়া"}
+      {"jp": "め (Me)", "bn": "চোখ"},
+      {"jp": "山 (Yama)", "bn": "পাহাড়"},
+      {"jp": "さくら (Sakura)", "bn": "চেরি ফুল"},
+      {"jp": "かわ (Kawa)", "bn": "নদী"},
+      {"jp": "ほん (Hon)", "bn": "বই"}
     ],
-    "quiz": {"q": "'আমি পানি পান করতে চাই' এর সঠিক ভার্ব রূপ কোনটি হবে?", "options": ["Nomimasu", "Nomitai desu", "Tabetai desu"], "correct": 1}
+    "quiz": {"q": "হিরাগানা একক ব্যঞ্জনবর্ণ কোনটি?", "options": ["め (Me)", "わ (Wa)", "ん (N)"], "correct": 2}
   },
   {
     "id": 5,
-    "title": "লেসন 六: N4 কানজি - দিকনির্দেশনা (Directions)",
-    "grammar": "<p>N4 লেভেলের দিকনির্দেশনামূলক ৩টি গুরুত্বপূর্ণ কানজি: 上 (উপরে), 下 (নিচে), 中 (ভেতরে)।</p>",
+    "title": "লেসন ৫: হিরাগানা যুক্তবর্ণ ও ডেকুওন (Dakuon)",
+    "grammar": "<h3>চিহ্নের ব্যবহারে উচ্চারণ পরিবর্তন</h3><p>বর্ণের ডানপাশে উপরে দুটি ড্যাশ ( Tenten `\"` ) বা ছোট বৃত্ত ( Maru `°` ) দিয়ে নতুন উচ্চারণ তৈরি করা হয়। যেমন: か (Ka) হয়ে যায় が (Ga), আর は (Ha) হয়ে যায় ば (Ba) বা ぱ (Pa)।</p>",
     "vocabulary": [
-      {"jp": "上 (Ue)", "bn": "উপরে <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "下 (Shita)", "bn": "নিচে <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "中 (Naka)", "bn": "ভেতরে / মধ্যে <span class='kanji-badge'>N4 Kanji</span>"}
+      {"jp": "がくせい (Gakusei)", "bn": "ছাত্র / শিক্ষার্থী"},
+      {"jp": "みず (Mizu)", "bn": "পানি"},
+      {"jp": "てんき (Tenki)", "bn": "আবহাওয়া"},
+      {"jp": "かばん (Kaban)", "bn": "ব্যাগ"},
+      {"jp": "えんぴつ (Enpitsu)", "bn": "পেন্সিল"}
     ],
-    "quiz": {"q": "‘下’ এই কানজিটির অর্থ কী?", "options": ["উপরে", "নিচে", "ভেতরে/মধ্যে"], "correct": 1}
-  }
-,
+    "quiz": {"q": "'পানি' এর সঠিক জাপানিজ শব্দ কোনটি?", "options": ["Mizu", "Gakusei", "Kaban"], "correct": 0}
+  },
   {
     "id": 6,
-    "title": "লেসন ৭: N5 পার্টিকল - দিক ও লক্ষ্য (Particle Ni & De)",
-    "grammar": "<p>জাপানিজ ব্যাকরণে পার্টিকল খুবই গুরুত্বপূর্ণ। <b>に (Ni)</b> ব্যবহৃত হয় নির্দিষ্ট সময় বা গন্তব্য বোঝাতে। আর <b>で (De)</b> ব্যবহৃত হয় কোনো স্থানে কাজ সম্পন্ন হওয়া বোঝাতে।</p><ul><li><b>উদাহরণ:</b> Gakkoo ni ikimasu (স্কুলে যাই)।</li><li><b>উদাহরণ:</b> Uchi de tabemasu (বাড়িতে খাই)।</li></ul>",
+    "title": "লেসন ৬: কাতাকানা বর্ণমালা (বিদেশী শব্দের রূপ)",
+    "grammar": "<h3>বিদেশী শব্দের জন্য বিশেষ বর্ণমালা</h3><p>জাপানি ভাষায় বিদেশী মানুষের নাম, দেশের নাম বা ইংরেজি থেকে আসা শব্দগুলো লেখার জন্য <b>কাতাকানা (Katakana)</b> ব্যবহার করা হয়। এর উচ্চারণ হিরাগানার মতোই, শুধু লেখার রূপ আলাদা।</p>",
     "vocabulary": [
-      {"jp": "学校 (Gakkoo)", "bn": "স্কুল <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "うち (Uchi)", "bn": "বাড়ি / ঘর"},
-      {"jp": "いきます (Ikimasu)", "bn": "যাওয়া"},
-      {"jp": "たべます (Tabemasu)", "bn": "খাওয়া"}
+      {"jp": "カメラ (Kamera)", "bn": "ক্যামেরা"},
+      {"jp": "テレビ (Terebi)", "bn": "টিভি / টেলিভিশন"},
+      {"jp": "アメリカ (Amerika)", "bn": "আমেরিকা"},
+      {"jp": "ノート (Nooto)", "bn": "নোটবুক"},
+      {"jp": "ベッド (Beddo)", "bn": "বিছানা (Bed)"}
     ],
-    "quiz": {"q": "'Uchi [?] hon o yomimasu' (বাড়িতে বই পড়ি) - শূন্যস্থানে কোন পার্টিকল বসবে?", "options": ["に (Ni)", "で (De)", "を (O)"], "correct": 1}
+    "quiz": {"q": "কাতাকানায় 'テレビ' (Terebi) বলতে কী বোঝায়?", "options": ["ক্যামেরা", "টেলিভিশন", "মোবাইল"], "correct": 1}
   },
   {
     "id": 7,
-    "title": "লেসন ৮: N5 অস্তিত্ব প্রকাশ (Arimasu vs Imasu)",
-    "grammar": "<p>কোনো কিছু 'আছে' বোঝাতে দুটি ভার্ব আছে। জড় বস্তু বা উদ্ভিদের ক্ষেত্রে <b>あります (Arimasu)</b> এবং মানুষ বা পশুপাখির ক্ষেত্রে <b>います (Imasu)</b> বসে।</p><ul><li><b>উদাহরণ:</b> Hon ga arimasu (বই আছে)।</li><li><b>উদাহরণ:</b> Inu ga imasu (কুকুর আছে)।</li></ul>",
+    "title": "লেসন ৭: N5 মৌলিক বাক্য গঠন (~ Wa ~ Desu)",
+    "grammar": "<h3>জাপানিজ ভাষার প্রথম ব্যাকরণ</h3><p>কোনো কিছুর পরিচয় দিতে বা 'আমি হই...' বোঝাতে এই প্যাটার্ন ব্যবহৃত হয়। এখানে <b>は (Wa)</b> হলো টপিক পার্টিকল (লেখার সময় Ha হলেও উচ্চারণ Wa হবে) এবং <b>です (Desu)</b> বাক্য শেষ করতে বসে।</p><ul><li><b>গঠন:</b> [Subject] wa [Noun] desu.</li><li><b>উদাহরণ:</b> Watashi wa Miraa desu (আমি মিট চালস / মিস্টার মিলার)।</li></ul>",
     "vocabulary": [
-      {"jp": "あります (Arimasu)", "bn": "আছে (জড় বস্তু)"},
-      {"jp": "います (Imasu)", "bn": "আছে (জীবন্ত বস্তু)"},
-      {"jp": "犬 (Inu)", "bn": "কুকুর <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "本 (Hon)", "bn": "বই <span class='kanji-badge'>N5 Kanji</span>"}
+      {"jp": "わたし (Watashi)", "bn": "আমি"},
+      {"jp": "あなた (Anata)", "bn": "তুমি / আপনি"},
+      {"jp": "～さん (~San)", "bn": "জনাব / জনাবা (নামের শেষে বসে)"},
+      {"jp": "せんせい (Sensei)", "bn": "শিক্ষক"},
+      {"jp": "エンジニア (Enjinia)", "bn": "ইঞ্জিনিয়ার"}
     ],
-    "quiz": {"q": "'Sensei ga [?]' (শিক্ষক আছেন) - শূন্যস্থানে কোনটি বসবে?", "options": ["arimasu", "imasu", "desu"], "correct": 1}
+    "quiz": {"q": "'আমি ইঞ্জিনিয়ার' - এর সঠিক জাপানিজ কোনটি?", "options": ["Watashi wa sensei desu", "Watashi wa enjinia desu", "Anata wa enjinia desu"], "correct": 1}
   },
   {
     "id": 8,
-    "title": "লেসন ৯: N4 ক্রিয়ার রূপান্তর - Te-Form সূচনা",
-    "grammar": "<p>N4 লেভেলের সবচেয়ে গুরুত্বপূর্ণ ধাপ হলো <b>Te-Form (て形)</b>। গ্রুপ-১ এর ভার্বগুলোর শেষে ます (masu) এর আগে <b>い(i), ち(chi), り(ri)</b> থাকলে তা পরিবর্তন হয়ে <b>って (tte)</b> হয়।</p><ul><li>Kaimasu (কিনি) ➡️ Katte (কিনে)</li><li>Machimasu (অপেক্ষা করি) ➡️ Matte (অপেক্ষা করে)</li></ul>",
+    "title": "লেসন ৮: N5 না-বোধক বাক্য গঠন (~ Dewa Arimasen)",
+    "grammar": "<h3>'আমি নই' বা 'এটি নয়' প্রকাশ করা</h3><p>পূর্ববর্তী লেসনের ইতিবাচক বাক্যকে নেতিবাচক বা না-বোধক করতে <b>です (Desu)</b> এর পরিবর্তে <b>では ありません (Dewa arimasen)</b> বসাতে হয়।</p><ul><li><b>গঠন:</b> [Subject] wa [Noun] dewa arimasen.</li><li><b>উদাহরণ:</b> Watashi wa gakusei dewa arimasen (আমি ছাত্র নই)।</li></ul>",
     "vocabulary": [
-      {"jp": "買います (Kaimasu)", "bn": "কেনা <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "待ちます (Machimasu)", "bn": "অপেক্ষা করা"},
-      {"jp": "言います (Iimasu)", "bn": "বলা"}
+      {"jp": "かいしゃいん (Kaishain)", "bn": "কোম্পানি কর্মচারী"},
+      {"jp": "ぎんこういん (Ginkoin)", "bn": "ব্যাংক কর্মকর্তা"},
+      {"jp": "いしゃ (Isha)", "bn": "ডাক্তার"},
+      {"jp": "だいがく (Daigaku)", "bn": "বিশ্ববিদ্যালয়"},
+      {"jp": "びょういん (Byoin)", "bn": "হাসপাতাল"}
     ],
-    "quiz": {"q": "'Kaimasu' এর সঠিক Te-Form কোনটি?", "options": ["Kaite", "Katte", "Kamate"], "correct": 1}
+    "quiz": {"q": "'Watashi wa isha dewa arimasen' এর অর্থ কী?", "options": ["আমি ডাক্তার", "আমি ডাক্তার নই", "সে ডাক্তার নয়"], "correct": 1}
   },
   {
     "id": 9,
-    "title": "লেসন ১০: N4 ব্যাকরণ - অনুরোধ করা (~Te Kudasai)",
-    "grammar": "<p>কাউকে ভদ্রভাবে কোনো কিছু করার অনুরোধ করতে ভার্বের Te-form এর সাথে <b>ください (Kudasai)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Matte kudasai (দয়া করে অপেক্ষা করুন)।</li><li><b>উদাহরণ:</b> Katte kudasai (দয়া করে কিনুন)।</li></ul>",
+    "title": "লেসন ৯: N5 প্রশ্নবোধক বাক্য ও 'ও' পার্টিকল (~ Ka / ~ Mo)",
+    "grammar": "<h3>প্রশ্ন করা এবং 'ও' (Too/Also) এর ব্যবহার</h3><p>১. বাক্যের শেষে শুধু <b>か (Ka)</b> যোগ করলেই সেটি প্রশ্নবোধক বাক্যে পরিণত হয় (কোনো প্রশ্নবোধক চিহ্নের প্রয়োজন হয় না)।<br>২. 'আমিও ছাত্র' বা একই জাতীয় কিছু বোঝাতে <b>は (Wa)</b> এর জায়গায় <b>も (Mo)</b> পার্টিকল বসে।</p><ul><li><b>উদাহরণ ১:</b> Anata wa sensei desu ka (আপনি কি শিক্ষক?)</li><li><b>উদাহরণ ২:</b> Miraa-san mo kaishain desu (মিস্টার মিলারও কোম্পানি কর্মচারী)।</li></ul>",
     "vocabulary": [
-      {"jp": "ください (Kudasai)", "bn": "দয়া করে (Please)"},
-      {"jp": "ちょっと (Chotto)", "bn": "একটু / সামান্য"},
-      {"jp": "見てください (Mite kudasai)", "bn": "দয়া করে দেখুন"}
+      {"jp": "あのひと (Ano hito)", "bn": "ঐ ব্যক্তি"},
+      {"jp": "あのかた (Ano kata)", "bn": "ঐ ব্যক্তি (সম্মানসূচক)"},
+      {"jp": "だれ (Dare)", "bn": "কে? (Who?)"},
+      {"jp": "どなた (Donata)", "bn": "কে? (সম্মানসূচক)"},
+      {"jp": "～さい (~Sai)", "bn": "বয়স গণনার একক (বছর)"}
     ],
-    "quiz": {"q": "জাপানিজে 'দয়া করে শুনুন' (Kikimasu -> Kiite) এর সঠিক রূপ কী হবে?", "options": ["Kikimasu kudasai", "Kiite kudasai", "Kite kudasai"], "correct": 1}
+    "quiz": {"q": "বাক্যকে প্রশ্নবোধক করতে শেষে কোন পার্টিকল যুক্ত করতে হয়?", "options": ["Mo (も)", "Wa (は)", "Ka (か)"], "correct": 2}
   },
   {
     "id": 10,
-    "title": "লেসন ১১: N4 কানজি - সময় ও বিদ্যুৎ (Time & Electricity)",
-    "grammar": "<p>N4 লেভেলের দুটি অত্যন্ত গুরুত্বপূর্ণ কানজি হলো <b>電 (বিদ্যুৎ)</b> এবং <b>時 (সময়/ঘণ্টা)</b>। এগুলো অন্য শব্দের সাথে যুক্ত হয়ে নতুন শব্দ তৈরি করে।</p><ul><li>電 + 車 = 電車 (Densha - বৈদ্যুতিক ট্রেন)</li><li>何 + 時 = 何時 (Nanji - কয়টা বাজে?)</li></ul>",
+    "title": "লেসন ১০: N5 মালিকানা পার্টিকল (~ No)",
+    "grammar": "<h3>'এর' বা Possession বোঝাতে</h3><p>দুটি নাউনের মধ্যে সম্পর্ক বা মালিকানা বোঝাতে মাঝখানে <b>の (No)</b> পার্টিকল বসে। এটি বাংলায় 'এর' বা 'র' এর মতো কাজ করে।</p><ul><li><b>গঠন:</b> [Noun 1] no [Noun 2]</li><li><b>উদাহরণ:</b> Watashi no hon (আমার বই)। IMC no shain (IMC এর কর্মচারী)।</li></ul>",
     "vocabulary": [
-      {"jp": "電車 (Densha)", "bn": "ট্রেন <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "時 (Toki/Ji)", "bn": "সময় / টা (O'clock) <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "何時 (Nanji)", "bn": "কয়টা (What time)"}
+      {"jp": "これ (Kore)", "bn": "এটি (বক্তার কাছের জিনিস)"},
+      {"jp": "それ (Sore)", "bn": "ওটি (শ্রোতার কাছের জিনিস)"},
+      {"jp": "あれ (Are)", "bn": "ঐটি (উভয়ের দূরের জিনিস)"},
+      {"jp": "じしょ (Jisho)", "bn": "অভিধান (Dictionary)"},
+      {"jp": "ざっし (Zasshi)", "bn": "ম্যাগাজিন"}
     ],
-    "quiz": {"q": "‘電車’ (Densha) শব্দের অর্থ কী?", "options": ["গাড়ি", "টেলিফোন", "ট্রেন"], "correct": 2}
-  },
-  {
-    "id": 11,
-    "title": "লেসন ১২: N4 ব্যাকরণ - নিষেধাজ্ঞা (~Te wa ikenai)",
-    "grammar": "<p>কোনো কাজ করতে কঠোরভাবে বারণ বা নিষেধ করতে ভার্বের Te-form এর সাথে <b>はいけない (wa ikenai)</b> যোগ করা হয়।</p><ul><li><b>উদাহরণ:</b> Tabete wa ikenai (খাওয়া যাবে না / খাওয়া নিষিদ্ধ)।</li><li><b>উদাহরণ:</b> Haitte wa ikenai (প্রবেশ করা নিষেধ)।</li></ul>",
-    "vocabulary": [
-      {"jp": "いけない (Ikenai)", "bn": "হবে না / করা যাবে না"},
-      {"jp": "入ります (Hairimasu)", "bn": "প্রবেশ করা <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "タバコ (Tabako)", "bn": "সিগারেট"}
-    ],
-    "quiz": {"q": "জাপানিজে 'এখানে ধূমপান করা নিষেধ' বোঝাতে কোনটি ব্যবহার করবেন?", "options": ["Suite kudasai", "Suite wa ikenai", "Suitemo ii desu"], "correct": 1}
+    "quiz": {"q": "'আমার অভিধান' এর সঠিক জাপানিজ রূপ কোনটি?", "options": ["Watashi wa jisho", "Watashi no jisho", "Kore wa jisho"], "correct": 1}
   }
 ,
   {
-    "id": 12,
-    "title": "লেসন ১৩: N4 ক্রিয়ার রূপান্তর - Nai-Form সূচনা",
-    "grammar": "<p>N4 লেভেলের আরেকটি অত্যন্ত গুরুত্বপূর্ণ রূপান্তর হলো <b>Nai-Form (ない形)</b>, যা দিয়ে না-বোধক বাক্য তৈরি করা হয়। গ্রুপ-১ এর ভার্বগুলোর শেষে ます (masu) এর আগের 'i' সাউন্ড পরিবর্তন হয়ে 'a' সাউন্ড হয় এবং শেষে ない (nai) যুক্ত হয়।</p><ul><li>Kaimasu (কিনি) ➡️ Kawanai (কিনি না)</li><li>Ikimasu (যাই) ➡️ Ikanai (যাই না)</li></ul>",
+    "id": 11,
+    "title": "লেসন ১১: N5 সংখ্যার কানজি (১ থেকে ৫) ও দিক নির্দেশক শব্দ",
+    "grammar": "<h3>বস্তুর স্থান নির্দেশ করা (Kore, Sore, Are)</h3><p>কোনো বস্তুর অবস্থান বোঝাতে এই সর্বনামগুলো বসে। কোরে (আমার কাছে), সোরে (আপনার কাছে), আরেই (দূরে)। এর সাথে আজ আমরা শিখব জাপানি সংখ্যার মৌলিক কানজি রূপ।</p>",
     "vocabulary": [
-      {"jp": "書きます (Kakimasu)", "bn": "লেখা <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "書かない (Kakanai)", "bn": "না লেখা"},
-      {"jp": "話します (Hanashimasu)", "bn": "কথা বলা <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "話さない (Hanasanai)", "bn": "কথা না বলা"}
+      {"jp": "一 (Ichi)", "bn": "১ (এক) <span class='kanji-badge'>N5 Kanji 1/100</span>"},
+      {"jp": "二 (Ni)", "bn": "২ (দুই) <span class='kanji-badge'>N5 Kanji 2/100</span>"},
+      {"jp": "三 (San)", "bn": "৩ (তিন) <span class='kanji-badge'>N5 Kanji 3/100</span>"},
+      {"jp": "四 (Yon/Shi)", "bn": "৪ (চার) <span class='kanji-badge'>N5 Kanji 4/100</span>"},
+      {"jp": "五 (Go)", "bn": "৫ (পাঁচ) <span class='kanji-badge'>N5 Kanji 5/100</span>"},
+      {"jp": "この (Kono)", "bn": "এই... (নাউনের আগে বসে)"},
+      {"jp": "その (Sono)", "bn": "ঐ... (নাউনের আগে বসে)"},
+      {"jp": "あの (Ano)", "bn": "উই... (নাউনের আগে বসে)"}
     ],
-    "quiz": {"q": "'Ikimasu' (যাই) এর সঠিক Nai-Form কোনটি?", "options": ["Ikainai", "Ikanai", "Ikitanai"], "correct": 1}
+    "quiz": {"q": "কানজি '三' এর সঠিক উচ্চারণ ও অর্থ কোনটি?", "options": ["Ni (২)", "San (৩)", "Yon (৪)"], "correct": 1}
+  },
+  {
+    "id": 12,
+    "title": "লেসন ১২: N5 সংখ্যার কানজি (৬ থেকে ১০) ও স্থানবাচক শব্দ",
+    "grammar": "<h3>স্থান নির্দেশ করা (Koko, Soko, Asoko)</h3><p>এখানে (Koko), ওখানে (Soko), এবং ওই দূরবর্তী স্থানে (Asoko) বোঝাতে এই শব্দগুলো বসে। ভদ্রভাবে বলতে Kochira, Sochira, Achira ব্যবহৃত হয়।</p>",
+    "vocabulary": [
+      {"jp": "六 (Roku)", "bn": "৬ (ছয়) <span class='kanji-badge'>N5 Kanji 6/100</span>"},
+      {"jp": "七 (Nana/Shichi)", "bn": "৭ (সাত) <span class='kanji-badge'>N5 Kanji 7/100</span>"},
+      {"jp": "八 (Hachi)", "bn": "৮ (আট) <span class='kanji-badge'>N5 Kanji 8/100</span>"},
+      {"jp": "九 (Kyuu)", "bn": "৯ (নয়) <span class='kanji-badge'>N5 Kanji 9/100</span>"},
+      {"jp": "十 (Juu)", "bn": "১০ (দশ) <span class='kanji-badge'>N5 Kanji 10/100</span>"},
+      {"jp": "ここ (Koko)", "bn": "এখানে"},
+      {"jp": "そこ (Soko)", "bn": "ওখানে"},
+      {"jp": "あそこ (Asoko)", "bn": "ওইখানে (দূরে)"},
+      {"jp": "どこ (Doko)", "bn": "কোথায়? (Where?)"}
+    ],
+    "quiz": {"q": "জাপানি কানজি '十' এর অর্থ কী?", "options": ["৫", "৭", "১০"], "correct": 2}
   },
   {
     "id": 13,
-    "title": "লেসন ১৪: N4 ব্যাকরণ - অনুরোধ না করা (~Nai de kudasai)",
-    "grammar": "<p>কাউকে কোনো কাজ 'না করার' জন্য ভদ্রভাবে অনুরোধ করতে ভার্বের Nai-form এর সাথে <b>でください (de kudasai)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Ikanai de kudasai (দয়া করে যাবেন না)।</li><li><b>উদাহরণ:</b> Shashin o toranai de kudasai (দয়া করে ছবি তুলবেন pressed না)।</li></ul>",
+    "title": "লেসন ১৩: N5 মুদ্রার কানজি ও দাম জিজ্ঞাসা করা (~ Ikura desu ka)",
+    "grammar": "<h3>টাকার হিসাব ও দাম জানা</h3><p>কোনো জিনিসের দাম জিজ্ঞেস করতে <b>いくらですか (Ikura desu ka)</b> ব্যবহার করা হয়। শত, হাজার ও জাপানি মুদ্রা ইয়েনের কানজি আজ আমরা শিখব।</p>",
     "vocabulary": [
-      {"jp": "写真 (Shashin)", "bn": "ছবি <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "撮ります (Torimasu)", "bn": "ছবি তোলা"},
-      {"jp": "忘れます (Wasuremasu)", "bn": "ভুলে যাওয়া"}
+      {"jp": "百 (Hyaku)", "bn": "১০০ (একশত) <span class='kanji-badge'>N5 Kanji 11/100</span>"},
+      {"jp": "千 (Sen)", "bn": "১,০০০ (এক হাজার) <span class='kanji-badge'>N5 Kanji 12/100</span>"},
+      {"jp": "万 (Man)", "bn": "১০,০০০ (দশ হাজার) <span class='kanji-badge'>N5 Kanji 13/100</span>"},
+      {"jp": "円 (En)", "bn": "ইয়েন (জাপানি মুদ্রা) <span class='kanji-badge'>N5 Kanji 14/100</span>"},
+      {"jp": "いくら (Ikura)", "bn": "কত দাম? (How much?)"},
+      {"jp": "みせ (Mise)", "bn": "দোকান"},
+      {"jp": "きっさてん (Kissaten)", "bn": "কফি শপ / ক্যাফে"}
     ],
-    "quiz": {"q": "জাপানিজে 'দয়া করে ভুলে যাবেন না' (Wasuremasu -> Wasurenai) এর রূপ কী হবে?", "options": ["Wasuremasu de kudasai", "Wasurenai de kudasai", "Wasurete kudasai"], "correct": 1}
+    "quiz": {"q": "জাপানি মুদ্রা 'ইয়েন' এর কানজি রূপ কোনটি?", "options": ["百", "円", "万"], "correct": 1}
   },
   {
     "id": 14,
-    "title": "লেসন ১৫: N4 ব্যাকরণ - বাধ্যবাধকতা (~Nakereba narimasen)",
-    "grammar": "<p>কোনো কাজ 'করতেই হবে' বা করা বাধ্যতামূলক বোঝাতে ভার্বের Nai-form থেকে শেষ অক্ষরের い (ui) বাদ দিয়ে <b>ければなりません (kereba narimasen)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Ikanakereba narimasen (যেতেই হবে)।</li><li><b>উদাহরণ:</b> Tabenakereba narimasen (খেতেই হবে)।</li></ul>",
+    "title": "লেসন ১৪: N5 দিন ও সূর্যের কানজি এবং সময় বাচক পার্টিকল (~ Ni)",
+    "grammar": "<h3>নির্দিষ্ট সময়ে কাজ করা</h3><p>কোনো নির্দিষ্ট সময় বা বারের পরে <b>に (Ni)</b> পার্টিকল বসে। যেমন: ৭ টায় (Shichi-ji ni)। তবে আজ, আগামীকাল এগুলোর পর Ni বসে না।</p>",
     "vocabulary": [
-      {"jp": "薬 (Kusuri)", "bn": "ওষুধ <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "飲みます (Nomimasu)", "bn": "পান করা/ওষুধ খাওয়া <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "毎日 (Mainichi)", "bn": "প্রতিদিন"}
+      {"jp": "日 (Hi/Nichi)", "bn": "দিন / সূর্য <span class='kanji-badge'>N5 Kanji 15/100</span>"},
+      {"jp": "月 (Tsuki/Getsu)", "bn": "মাস / চাঁদ <span class='kanji-badge'>N5 Kanji 16/100</span>"},
+      {"jp": "いま (Ima)", "bn": "এখন"},
+      {"jp": "じ (Ji)", "bn": "টা (যেমন: ১টা, ২টা - ও'ক্লক)"},
+      {"jp": "ふん / ぷん (Fun/Pun)", "bn": "মিনিট"},
+      {"jp": "はん (Han)", "bn": "অর্ধেক / সাড়ে (যেমন: সাড়ে ৩টা)"}
     ],
-    "quiz": {"q": "'প্রতিদিন ওষুধ খেতেই হবে' এর সঠিক জাপানিজ রূপ কোনটি?", "options": ["Mainichi kusuri o nomimasu", "Mainichi kusuri o nomanakereba narimasen", "Mainichi kusuri o nomitai desu"], "correct": 1}
+    "quiz": {"q": "কানজি '日' এর প্রধান অর্থ কী?", "options": ["পানি", "দিন / সূর্য", "গাছ"], "correct": 1}
   },
   {
     "id": 15,
-    "title": "লেসন ১৬: N4 কানজি - শরীর ও স্বাস্থ্য (Body Parts)",
-    "grammar": "<p>N4 লেভেলে ডাক্তার বা হাসপাতালের কথোপকথনের জন্য শরীরের প্রধান অঙ্গগুলোর কানজি জানা জরুরি। আজ আমরা শিখব <b>目 (চোখ)</b>, <b>手 (হাত)</b>, এবং <b>足 (পা/লেগ)</b>।</p><ul><li>目 (Me - চোখ)</li><li>手 (Te - হাত) ➡️上手 (Joozu - দক্ষ/পারদর্শী)</li></ul>",
+    "title": "লেসন ১৫: N5 প্রকৃতির কানজি (আগুন, পানি, গাছ) ও কাল (Tense)",
+    "grammar": "<h3>অতীত ও বর্তমান কাল (Verbs)</h3><p>জাপানি ক্রিয়ার শেষে <b>~Masu</b> থাকলে বর্তমান/ভবিষ্যৎ কাল এবং <b>~Mashita</b> থাকলে অতীত কাল বোঝায়। যেমন: Iki-masu (যাব/যাই), Iki-mashita (গিয়েছিলাম)।</p>",
     "vocabulary": [
-      {"jp": "目 (Me)", "bn": "চোখ <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "手 (Te)", "bn": "হাত <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "足 (Ashi)", "bn": "পা <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "医者 (Isha)", "bn": "ডাক্তার <span class='kanji-badge'>N4 Kanji</span>"}
+      {"jp": "火 (Hi/Ka)", "bn": "আগুন / মঙ্গলবার <span class='kanji-badge'>N5 Kanji 17/100</span>"},
+      {"jp": "水 (Mizu/Sui)", "bn": "পানি / বুধবার <span class='kanji-badge'>N5 Kanji 18/100</span>"},
+      {"jp": "木 (Ki/Moku)", "bn": "গাছ / বৃহস্পতিবার <span class='kanji-badge'>N5 Kanji 19/100</span>"},
+      {"jp": "おきまる (Okiru)", "bn": "ঘুম থেকে ওঠা"},
+      {"jp": "ねます (Nemasu)", "bn": "ঘুমানো"},
+      {"jp": "はたらきます (Hatarakimasu)", "bn": "কাজ করা"}
     ],
-    "quiz": {"q": "‘手’ এই কানজিটির অর্থ কী?", "options": ["চোখ", "হাত", "পা"], "correct": 1}
+    "quiz": {"q": "'পানি' এর জাপানি কানজি কোনটি?", "options": ["火", "水", "木"], "correct": 1}
   },
   {
     "id": 16,
-    "title": "লেসন ১৭: N4 ক্রিয়ার রূপান্তর - Dictionary Form",
-    "grammar": "<p>জাপানিজ ডিকশনারিতে ভার্বগুলো যেভাবে থাকে তাকে <b>Dictionary Form (辞書形 - Jishokei)</b> বা Plain Form বলে। বন্ধুবান্ধবদের সাথে ক্যাজুয়াল কথাবার্তায় এটি বসে। গ্রুপ-১ এর ます (masu) এর আগের 'i' সাউন্ড পরিবর্তন হয়ে 'u' সাউন্ডে রূপ নেয়।</p><ul><li>Ikimasu (যাই) ➡️ Iku (যাওয়া/যাবে)</li><li>Nomimasu (পান করি) ➡️ Nomu (পান করা)</li></ul>",
+    "title": "লেসন ১৬: N5 ধাতু ও মাটির কানজি এবং 'থেকে-পর্যন্ত' (~ Kara ~ Made)",
+    "grammar": "<h3>সময় বা স্থানের ব্যাপ্তি প্রকাশ</h3><p>কোনো কাজ বা সময়ের শুরু বোঝাতে <b>から (Kara - থেকে)</b> এবং শেষ বোঝাতে <b>まで (Made - পর্যন্ত)</b> বসে। যেমন: ৯টা থেকে ৫টা পর্যন্ত।</p>",
     "vocabulary": [
-      {"jp": "行く (Iku)", "bn": "যাওয়া"},
-      {"jp": "飲む (Nomu)", "bn": "পান করা"},
-      {"jp": "買う (Kau)", "bn": "কেনা"},
-      {"jp": "日本語 (Nihongo)", "bn": "জাপানি ভাষা"}
+      {"jp": "金 (Kane/Kin)", "bn": "টাকা / সোনা / শুক্রবার <span class='kanji-badge'>N5 Kanji 20/100</span>"},
+      {"jp": "土 (Tsuchi/Do)", "bn": "মাটি / শনিবার <span class='kanji-badge'>N5 Kanji 21/100</span>"},
+      {"jp": "やすみます (Yasumimasu)", "bn": "ছুটি নেওয়া / বিশ্রাম করা"},
+      {"jp": "ひるやすみ (Hiruyasumi)", "bn": "দুপুরের বিরতি"},
+      {"jp": "びじゅつかん (Bijutsukan)", "bn": "আর্ট গ্যালারি"}
     ],
-    "quiz": {"q": "'Hanashimasu' (কথা বলা) এর সঠিক Dictionary Form কোনটি?", "options": ["Hanasu", "Hanashi", "Hanasai"], "correct": 0}
+    "quiz": {"q": "শুক্রবার বা টাকার জন্য কোন কানজি ব্যবহার করা হয়?", "options": ["金", "土", "水"], "correct": 0}
   },
   {
     "id": 17,
-    "title": "লেসন ১৮: N4 ব্যাকরণ - সামর্থ্য বা যোগ্যতা (~Koto ga dekiru)",
-    "grammar": "<p>কোনো কাজ করতে পারা বা সক্ষমতা প্রকাশ করতে ভার্বের Dictionary Form এর সাথে <b>ことができます (koto ga dekiru)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Nihongo o hanasu koto ga dekiru (আমি জাপানিজে কথা বলতে পারি)।</li><li><b>উদাহরণ:</b> Kanji o yomu koto ga dekiru (কানজি পড়তে পারি)।</li></ul>",
+    "title": "লেসন ১৭: N5 দেশের কানজি ও গন্তব্য পার্টicল (~ E)",
+    "grammar": "<h3>কোনো স্থানে গমন করা</h3><p>কোনো দিকে বা স্থানে যাওয়া, আসা বা ফেরা বোঝাতে গন্তব্য নাউনের পরে <b>へ (E)</b> পার্টিকল বসে (লেখার সময় He হলেও উচ্চারণ E হবে)।</p>",
     "vocabulary": [
-      {"jp": "できます (Dekiru)", "bn": "পারা / সক্ষম হওয়া"},
-      {"jp": "話す (Hanasu)", "bn": "কথা বলা"},
-      {"jp": "読む (Yomu)", "bn": "পড়া <span class='kanji-badge'>N5 Kanji</span>"}
+      {"jp": "国 (Kuni/Koku)", "bn": "দেশ <span class='kanji-badge'>N5 Kanji 22/100</span>"},
+      {"jp": "いきます (Ikimasu)", "bn": "যাওয়া"},
+      {"jp": "きます (Kimasu)", "bn": "আসা"},
+      {"jp": "かえります (Kaerimasu)", "bn": "ফিরে যাওয়া (বাড়িতে)"},
+      {"jp": "こうえん (Kouen)", "bn": "পার্ক"}
     ],
-    "quiz": {"q": "'আমি জাপানি খাবার খেতে পারি' (Taberu = খাওয়া) - এর সঠিক অনুবাদ কোনটি?", "options": ["Nihon ryori o tabemashita", "Nihon ryori o taberu koto gaできます", "Nihon ryori o tabetai desu"], "correct": 1}
-  } 
-  ,
+    "quiz": {"q": "Gō (যাওয়া) এর জাপানি শব্দ কোনটি?", "options": ["Kimasu", "Ikimasu", "Kaerimasu"], "correct": 1}
+  },
   {
     "id": 18,
-    "title": "লেসন ১৯: N4 ক্রিয়ার রূপান্তর - Ta-Form (অতীত রূপ)",
-    "grammar": "<p>N4 লেভেলের আরেকটি প্রধান রূপান্তর হলো <b>Ta-Form (た形)</b>। এটি মূলত Te-Form এর মতোই কাজ করে, শুধু 'te' বা 'de' এর জায়গায় 'ta' বা 'da' বসে। এটি অনানুষ্ঠানিক অতীত কাল এবং বিভিন্ন ব্যাকরণগত প্যাটার্নে ব্যবহৃত হয়।</p><ul><li>Kaimasu (Te-form: Katte) ➡️ Katta (কিনেছিলাম)</li><li>Ikimasu (Te-form: Itte) ➡️ Itta (গিয়েছিলাম)</li></ul>",
+    "title": "লেসন ১৮: N5 মানুষের কানজি ও মাধ্যম পার্টিকল (~ De)",
+    "grammar": "<h3>বাহন বা মাধ্যম বোঝাতে De</h3><p>কোনো যানবাহনে করে কোথাও যাওয়া বা কোনো মাধ্যমে কাজ করা বোঝাতে <b>で (De)</b> বসে। যেমন: বাস দিয়ে যাই (Basu de ikimasu)।</p>",
     "vocabulary": [
-      {"jp": "行った (Itta)", "bn": "গিয়েছিলাম"},
-      {"jp": "買った (Katta)", "bn": "কিনেছিলাম"},
-      {"jp": "見た (Mita)", "bn": "দেখেছিলাম"},
-      {"jp": "食べた (Tabeta)", "bn": "খেয়েছিলাম"}
+      {"jp": "人 (Hito/Jin)", "bn": "মানুষ <span class='kanji-badge'>N5 Kanji 23/100</span>"},
+      {"jp": "じてんしゃ (Jitensha)", "bn": "সাইকেল"},
+      {"jp": "でんしゃ (Densha)", "bn": "ট্রেন"},
+      {"jp": "ひこうき (Hikouki)", "bn": "উড়োজাহাজ / প্লেন"},
+      {"jp": "あるいて (Aruite)", "bn": "পায়ে হেঁটে (এর পরে De বসে না)"}
     ],
-    "quiz": {"q": "'Tabemasu' (খাওয়া) এর সঠিক Ta-Form কোনটি?", "options": ["Tabeta", "Tabetta", "Tabemashita"], "correct": 0}
+    "quiz": {"q": "মানুষের কানজি '人' এর উচ্চারণ কী?", "options": ["Hito", "Kuni", "Mizu"], "correct": 0}
   },
   {
     "id": 19,
-    "title": "লেসন ২০: N4 ব্যাকরণ - অতীতের অভিজ্ঞতা (~Koto ga aru)",
-    "grammar": "<p>জীবনে কোনো কাজ করার অভিজ্ঞতা বা এক্সপেরিয়েন্স আছে কি না তা প্রকাশ করতে ভার্বের Ta-form এর সাথে <b>ことがあります (koto ga aru)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Nihon ni itta koto ga arimasu (আমি জাপানে গিয়েছি / আমার জাপানে যাওয়ার অভিজ্ঞতা আছে)।</li><li><b>উদাহরণ:</b> Sushi o tabeta koto ga arimasu (আমি সুশি খেয়েছি)।</li></ul>",
+    "title": "লেসন ১৯: N5 নামের কানজি ও সঙ্গী পার্টিকল (~ To)",
+    "grammar": "<h3>কারো সাথে কাজ করা</h3><p>কারো সাথে বা সঙ্গে কোনো কাজ করা বোঝাতে ওই ব্যক্তির নামের পরে <b>と (To - সাথে)</b> পার্টিকল বসে। যেমন: বন্ধুর সাথে (Tomo-dachi to)।</p>",
     "vocabulary": [
-      {"jp": "日本 (Nihon)", "bn": "জাপান <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "すし (Sushi)", "bn": "সুশি (জাপানি খাবার)"},
-      {"jp": "一度 (Ichido)", "bn": "একবার <span class='kanji-badge'>N4 Kanji</span>"}
+      {"jp": "名 (Na/Mei)", "bn": "নাম <span class='kanji-badge'>N5 Kanji 24/100</span>"},
+      {"jp": "ともだち (Tomodachi)", "bn": "বন্ধু"},
+      {"jp": "かぞく (Kazoku)", "bn": "পরিবার"},
+      {"jp": "かれ (Kare)", "bn": "সে (ছেলে) / বয়ফ্রেন্ড"},
+      {"jp": "かのじょ (Kanojo)", "bn": "সে (মেয়ে) / গার্লফ্রেন্ড"}
     ],
-    "quiz": {"q": "'আমি ফুজি পর্বত আরোহণ করেছি' (登った = Nobotta) - এর সঠিক রূপ কী হবে?", "options": ["Fuji-san ni noborimasu", "Fuji-san ni nobotta koto ga arimasu", "Fuji-san ni noboritai desu"], "correct": 1}
+    "quiz": {"q": "'বন্ধুর সাথে' - এর সঠিক জাপানি রূপ কোনটি?", "options": ["Tomodachi wa", "Tomodachi de", "Tomodachi to"], "correct": 2}
   },
   {
     "id": 20,
-    "title": "লেসন ২১: N4 ব্যাকরণ - পরামর্শ দেওয়া বা নেওয়া (~Ta hooga ii)",
-    "grammar": "<p>কাউকে কোনো শক্তিশালী পরামর্শ বা উপদেশ দিতে (\"এটি করা আপনার জন্য ভালো হবে\") ভার্বের Ta-form এর সাথে <b>ほうがいいです (hooga ii desu)</b> যোগ করা হয়।</p><ul><li><b>উদাহরণ:</b> Isha ni itta hooga ii desu (ডাক্তারের কাছে যাওয়া আপনার জন্য ভালো হবে)।</li><li><b>উদাহরণ:</b> Kusuri o nonda hooga ii desu (ওষুধ খাওয়া ভালো হবে)।</li></ul>",
+    "title": "লেসন ২০: N5 পজিশন কানজি (সামনে ও পেছনে) এবং অবজেক্ট পার্টিকল (~ O)",
+    "grammar": "<h3>ক্রিয়ার অবজেক্ট নির্দেশ করা</h3><p>যেকোনো সকর্মক ক্রিয়া বা অ্যাকশন ভার্বের অবজেক্টের পরে <b>を (O)</b> পার্টিকল বসে। যেমন: ভাত খাওয়া (Gohan o taberu)।</p>",
     "vocabulary": [
-      {"jp": "ほうがいい (Hooga ii)", "bn": "ভালো হবে / উচিত"},
-      {"jp": "早く (Hayaku)", "bn": "তাড়াতাড়ি / দ্রুত"},
-      {"jp": "寝ます (Nemasu)", "bn": "ঘুমানো"}
+      {"jp": "前 (Mae/Zen)", "bn": "সামনে / আগে <span class='kanji-badge'>N5 Kanji 25/100</span>"},
+      {"jp": "後 (Ushiro/Go)", "bn": "পেছনে / পরে <span class='kanji-badge'>N5 Kanji 26/100</span>"},
+      {"jp": "ごはん (Gohan)", "bn": "রান্না করা ভাত / খাবার"},
+      {"jp": "みます (Mimasu)", "bn": "দেখা"},
+      {"jp": "たべます (Tabemasu)", "bn": "খাওয়া"},
+      {"jp": "みます (Mimasu)", "bn": "দেখা"}
     ],
-    "quiz": {"q": "'আপনার তাড়াতাড়ি ঘুমানো উচিত' (寝た = Neta) - এর সঠিক জাপানিজ কোনটি?", "options": ["Hayaku nemasu", "Hayaku neta hooga ii desu", "Hayaku netai desu"], "correct": 1}
-  },
-  {
-    "id": 21,
-    "title": "লেসন ২২: N4 কানজি - যাতায়াত ও যানবাহন (Transport)",
-    "grammar": "<p>N4 লেভেলের দৈনন্দিন যাতায়াতের জন্য ৩টি অতি প্রয়োজনীয় কানজি হলো <b>車 (গাড়ি)</b>, <b>駅 (স্টেশন)</b>, এবং <b>自 (নিজে)</b>।</p><ul><li>車 (Kuruma - গাড়ি)</li><li>自 + 転 + 車 = 自転車 (Jitensha - সাইকেল)</li><li>駅 (Eki - ট্রেন স্টেশন)</li></ul>",
-    "vocabulary": [
-      {"jp": "車 (Kuruma)", "bn": "গাড়ি <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "駅 (Eki)", "bn": "স্টেশন <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "自転車 (Jitensha)", "bn": "সাইকেল <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "近い (Chikai)", "bn": "কাছে / নিকটবর্তী"}
-    ],
-    "quiz": {"q": "‘自転車’ (Jitensha) শব্দের সঠিক অর্থ কী?", "options": ["গাড়ি", "ট্রেন", "সাইকেল"], "correct": 2}
-  },
-  {
-    "id": 22,
-    "title": "লেসন ২৩: N4 ব্যাকরণ - অনুমিতি ও সম্ভাবনা (~Deshoo)",
-    "grammar": "<p>কোনো বিষয়ে অনুমান করতে বা সম্ভাবনা প্রকাশ করতে (\"হতে পারে / সম্ভবত\") বাক্যের শেষে <b>でしょう (Deshoo)</b> ব্যবহার করা হয়। এটি আবহাওয়া পূর্বাভাসের ক্ষেত্রে প্রচুর ব্যবহৃত হয়।</p><ul><li><b>উদাহরণ:</b> Ashita wa ame ga furu deshoo (আগামীকাল সম্ভবত বৃষ্টি হবে)।</li><li><b>উদাহরণ:</b> Kono shiken wa muzukashii deshoo (এই পরীক্ষাটি সম্ভবত কঠিন হবে)।</li></ul>",
-    "vocabulary": [
-      {"jp": "雨 (Ame)", "bn": "বৃষ্টি <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "明日 (Ashita)", "bn": "আগামীকাল <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "試験 (Shiken)", "bn": "পরীক্ষা <span class='kanji-badge'>N4 Kanji</span>"}
-    ],
-    "quiz": {"q": "'でしょう' (Deshoo) ব্যাকরণটি প্রধানত কী প্রকাশ করতে ব্যবহৃত হয়?", "options": ["অতীত কাল", "অনুরোধ", "অনুমান বা সম্ভাবনা"], "correct": 2}
-  },
-  {
-    "id": 23,
-    "title": "লেসন ২৪: N4 ব্যাকরণ - উদ্ধৃতি ও মতামত (~To omoimasu)",
-    "grammar": "<p>নিজের কোনো মতামত বা চিন্তা প্রকাশ করতে (\"আমি মনে করি যে...\") Plain Form (Dictionary/Nai/Ta form) এর সাথে <b>と思います (to omoimasu)</b> যোগ করা হয়।</p><ul><li><b>উদাহরণ:</b> Kare wa kuru to omoimasu (আমি মনে করি সে আসবে)।</li><li><b>উদাহরণ:</b> Kono Kanji wa yasashii to omoimasu (আমি মনে করি এই কানজিটি সহজ)।</li></ul>",
-    "vocabulary": [
-      {"jp": "思います (Omoimasu)", "bn": "মনে করা / চিন্তা করা"},
-      {"jp": "優しい (Yasashii)", "bn": "সহজ / দয়ালু"},
-      {"jp": "彼 (Kare)", "bn": "সে (পুরুষ) <span class='kanji-badge'>N4 Kanji</span>"}
-    ],
-    "quiz": {"q": "'আমি মনে করি জাপানি ভাষা চমৎকার' (Omoshiroi = চমৎকার) - এর সঠিক গঠন কোনটি?", "options": ["Nihongo wa omoshiroi desu", "Nihongo wa omoshiroi to omoimasu", "Nihongo wa omoshiroi koto ga aru"], "correct": 1}
-  }
-,
-  {
-    "id": 24,
-    "title": "লেসন ২৫: N4 ব্যাকরণ - শর্তযুক্ত বাক্য (~Tara Form)",
-    "grammar": "<p>জাপানিজ ভাষায় 'যদি... তাহলে' (If... then) বোঝানোর সবচেয়ে সহজ এবং বহুল ব্যবহৃত রূপ হলো <b>~Tara (~たら)</b> ফর্ম। এটি তৈরি করতে ভার্বের অতীত রূপ বা Ta-form এর সাথে <b>ら (ra)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Ame ga futtara, ikimasen (যদি বৃষ্টি হয়, তাহলে যাব না)।</li><li><b>উদাহরণ:</b> Jikan ga attara, terebi o mimasu (যদি সময় থাকে, তাহলে টিভি দেখব)।</li></ul>",
-    "vocabulary": [
-      {"jp": "時間 (Jikan)", "bn": "সময় <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "お金 (Okane)", "bn": "টাকা / অর্থ <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "安かったら (Yasukattara)", "bn": "যদি সস্তা হয়"}
-    ],
-    "quiz": {"q": "'যদি টাকা থাকে, তাহলে গাড়ি কিনব' (Okane ga aru -> Attara) - এর সঠিক রূপ কোনটি?", "options": ["Okane ga attara, kuruma o kaimasu", "Okane ga aru, kuruma o kaimasu", "Okane ga arimasu kara, kuruma o kaimasu"], "correct": 0}
-  },
-  {
-    "id": 25,
-    "title": "লেসন ২৬: N4 ব্যাকরণ - যুগপৎ কাজ বা একসাথে দুটি কাজ (~Nagara)",
-    "grammar": "<p>একই সময়ে একসাথে দুটি কাজ করা বোঝালে (\"এটি করার পাশাপাশি ওটি করা\") প্রথম ভার্বের ます (masu) বাদ দিয়ে <b>ながら (nagara)</b> যোগ করতে হয়। মনে রাখবেন, প্রধান কাজটি সবসময় বাক্যের শেষে বসে।</p><ul><li><b>উদাহরণ:</b> Ongaku o kikinagara, benkyoo shimasu (গান শোনার পাশাপাশি পড়াশোনা করি)।</li><li><b>উদাহরণ:</b> Terebi o mimanagara, tabemasu (টিভি দেখতে দেখতে খাই)।</li></ul>",
-    "vocabulary": [
-      {"jp": "音楽 (Ongaku)", "bn": "গান / মিউজিক <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "聞きます (Kikimasu)", "bn": "শোনা <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "勉強 (Benkyoo)", "bn": "পড়াশোনা করা <span class='kanji-badge'>N5 Kanji</span>"}
-    ],
-    "quiz": {"q": "'হাঁটার পাশাপাশি কথা বলা' (Aruki[masu] + Hanashimasu) এর সঠিক রূপ কী হবে?", "options": ["Arukimasu nagara hanashimasu", "Arukinagara hanashimasu", "Arukite hanashimasu"], "correct": 1}
-  },
-  {
-    "id": 26,
-    "title": "লেসন ২৭: N4 ব্যাকরণ - কোনো কিছু করার পর (~Te kara)",
-    "grammar": "<p>একটি কাজ শেষ করার ঠিক পরপরই আরেকটি কাজ করা বোঝালে প্রথম ভার্বের Te-form এর সাথে <b>から (kara)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Shigoto ga owatte kara, uchi ni kaerimasu (কাজ শেষ হওয়ার পর বাড়ি ফিরব)।</li><li><b>উদাহরণ:</b> Te o araitte kara, tabemasu (হাত ধোয়ার পর খাব)।</li></ul>",
-    "vocabulary": [
-      {"jp": "仕事 (Shigoto)", "bn": "কাজ <span class='kanji-badge'>N5 Kanji</span>"},
-      {"jp": "終わります (Owarimasu)", "bn": "শেষ হওয়া"},
-      {"jp": "洗います (Araimasu)", "bn": "ধোয়া / পরিষ্কার করা"}
-    ],
-    "quiz": {"q": "'পড়াশোনা শেষ করার পর ঘুমাব' (Benkyoo shite + Nemasu) এর সঠিক গঠন কোনটি?", "options": ["Benkyoo shimasu kara nemasu", "Benkyoo shite kara nemasu", "Benkyoo shitai kara nemasu"], "correct": 1}
-  },
-  {
-    "id": 27,
-    "title": "লেসন ২৮: N4 কানজি - সমাজ ও সংস্কৃতি (Society & Culture)",
-    "grammar": "<p>N4 লেভেলের শেষদিকের অত্যন্ত গুরুত্বপূর্ণ ৩টি কানজি হলো <b>国 (দেশ)</b>, <b>外国 (বিদেশ)</b>, এবং <b>人 (মানুষ)</b>। এগুলো একত্রে জটিল শব্দ গঠন করে।</p><ul><li>国 (Kuni - দেশ)</li><li>外 (Soto/Gai - বাইরে) ➡️ 外国人 (Gaikokujin - বিদেশী নাগরিক)</li></ul>",
-    "vocabulary": [
-      {"jp": "国 (Kuni/Koku)", "bn": "দেশ <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "外国 (Gaikoku)", "bn": "বিদেশ <span class='kanji-badge'>N4 Kanji</span>"},
-      {"jp": "外国人 (Gaikokujin)", "bn": "বিদেশী মানুষ <span class='kanji-badge'>N4 Kanji</span>"}
-    ],
-    "quiz": {"q": "‘外国人’ (Gaikokujin) শব্দটির সঠিক অর্থ কী?", "options": ["জাপানি নাগরিক", "বিদেশী নাগরিক", "ডাক্তার"], "correct": 1}
-  },
-  {
-    "id": 28,
-    "title": "লেসন ২৯: N4 ব্যাকরণ - বিনম্র ভাষা ও সম্মান প্রদর্শন (Keigo Introduction)",
-    "grammar": "<p>জাপানি সংস্কৃতির সবচেয়ে গুরুত্বপূর্ণ অংশ হলো সম্মান প্রদর্শন বা <b>敬語 (Keigo)</b>। বড়দের বা কাস্টমারদের সাথে কথা বলার সময় সাধারণ ভার্বগুলো পরিবর্তিত হয়ে যায়।</p><ul><li>Ikimasu/Kimasu (যাওয়া/আসা) ➡️ <b>いらっしゃいます (Irasshaimasu)</b></li><li>Tabemasu/Nomimasu (খাওয়া/পান করা) ➡️ <b>召し上がります (Meshishagarimasu)</b></li></ul>",
-    "vocabulary": [
-      {"jp": "いらっしゃいませ (Irasshaimase)", "bn": "স্বাগতম (Welcome to the shop)"},
-      {"jp": "召し上がります (Meshishagarimasu)", "bn": "খাওয়া / পান করা (সম্মানসূচক)"},
-      {"jp": "敬語 (Keigo)", "bn": "বিনম্র/সম্মানসূচক ভাষা"}
-    ],
-    "quiz": {"q": "কোনো রেস্টুরেন্ট বা শপে ঢুকলে জাপানিজে সম্মান দেখিয়ে প্রথম কোন শব্দটি বলা হয়?", "options": ["Arigatou gozaimasu", "Irasshaimase", "Sayoonara"], "correct": 1}
-  },
-  {
-    "id": 29,
-    "title": "🏆 লেসন ৩০: JLPT N4 গ্র্যান্ড মক টেস্ট (Final Exam)",
-    "grammar": "<p>অভিনন্দন! আপনি হিরাগানা থেকে শুরু করে JLPT N4 লেভেলের সমস্ত গুরুত্বপূর্ণ ব্যাকরণ, শব্দার্থ এবং কানজি সফলভাবে শেষ করেছেন। এটি আপনার চূড়ান্ত পরীক্ষা। এই কুইজে পাস করলেই আপনার কোর্সটি ১০০% কমপ্লিট হবে!</p>🐋 <b>Ganbatte Kudasai! (শুভকামনা!)</b>",
-    "vocabulary": [
-      {"jp": "合格 (Gookaku)", "bn": "পরীক্ষায় পাস করা"},
-      {"jp": "おめでとう (Omedetou)", "bn": "অভিনন্দন!"},
-      {"jp": "頑張って (Ganbatte)", "bn": "সবটুকু দিয়ে চেষ্টা করা / Best of luck"}
-    ],
-    "quiz": {"q": "চূড়ান্ত প্রশ্ন: 'Kusuri o [?] hooga ii desu' (ওষুধ খাওয়া আপনার জন্য ভালো হবে) - শূন্যস্থানে সঠিক রূপ কোনটি বসবে?", "options": ["nomimasu", "nonda", "nomitai"], "correct": 1}
+    "quiz": {"q": "কানজি '前' এর বাংলা অর্থ কী?", "options": ["পেছনে", "সামনে", "উপরে"], "correct": 1}
   }
 ]
