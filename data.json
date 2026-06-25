@@ -1068,3 +1068,135 @@
     ],
     "quiz": {"q": "'বোঝা সহজ' এর সঠিক জাপানি রূপ কোনটি হবে?", "options": ["Wakariyasui", "Wakarinikui", "Wakarimasuyasui"], "correct": 0}
   }
+
+,
+  {
+    "id": 81,
+    "title": "লেসন ৮১: N5 পাখির কানজি ও কোনো সক্ষমতা বা যোগ্যতা প্রকাশ (~ Koto ga dekiru)",
+    "grammar": "<h3>কোনো কাজ করতে পারার ক্ষমতা প্রকাশ করা (Can do)</h3><p>আমি কোনো একটি কাজ করতে পারি (যেমন: সাঁতার কাটা, গাড়ি চালানো বা জাপানি ভাষা বলা) তা প্রকাশ করতে ক্রিয়ার Dictionary Form-এর সাথে <b>ことが できます (~ koto ga dekiru)</b> যোগ করা হয়।</p>",
+    "vocabulary": [
+      {"jp": "鳥 (Tori/Choo)", "bn": "পাখি <span class='kanji-badge'>N5 Kanji 91/100</span>"},
+      {"jp": "とり (Tori)", "bn": "পাখি"},
+      {"jp": "およぎます (Oyogimasu)", "bn": "সাঁতার কাটা ➡️ およぐことができます"},
+      {"jp": "うんてん (Unten)", "bn": "ড্রাইভিং / গাড়ি চালানো"},
+      {"jp": "にほんご (Nihongo)", "bn": "জাপানি ভাষা"}
+    ],
+    "quiz": {"q": "'আমি জাপানি ভাষা বলতে পারি' (Hanasu = বলা) এর সঠিক রূপ কোনটি?", "options": ["Nihongo o hanasu koto gaできます", "Nihongo o hanashimasu koto gaできます", "Nihongo o hanashite koto gaできます"], "correct": 0}
+  },
+  {
+    "id": 82,
+    "title": "লেসন ৮২: N5 গরুর কানজি ও পূর্বের কোনো অভিজ্ঞতা প্রকাশ (~ Koto ga aru)",
+    "grammar": "<h3>অতীতের কোনো অভিজ্ঞতা বা এক্সপেরিয়েন্স প্রকাশ করা</h3><p>জীবনে কখনো কোনো কাজ করার অভিজ্ঞতা আছে (যেমন: 'আমি ফুজি পর্বতে চড়েছি' বা 'আমি জাপানি খাবার খেয়েছি') তা প্রকাশ করতে ক্রিয়ার অতীত রূপ বা Ta-form এর সাথে <b>ことが あります (~ koto ga aru)</b> যোগ করা হয়।</p>",
+    "vocabulary": [
+      {"jp": "牛 (Ushi/Gyuu)", "bn": "গরু / গবাদি পশু <span class='kanji-badge'>N5 Kanji 92/100</span>"},
+      {"jp": "うし (Ushi)", "bn": "গরু"},
+      {"jp": "ぎゅうにゅう (Gyuunyuu)", "bn": "গরুর দুধ"},
+      {"jp": "たべた (Tabeta)", "bn": "খেয়েছিল (Plain) ➡️ たべたことがあります"},
+      {"jp": "ふじさん (Fujisan)", "bn": "ফুজি পর্বত"}
+    ],
+    "quiz": {"q": "'আমি জাপানে গিয়েছি (আমার জাপানে যাওয়ার অভিজ্ঞতা আছে)' এর সঠিক রূপ কোনটি?", "options": ["Nihon e iku koto ga arimasu", "Nihon e itta koto ga arimasu", "Nihon e ikimashita koto ga arimasu"], "correct": 1}
+  },
+  {
+    "id": 83,
+    "title": "লেসন ৮৩: N5 ঘোড়ার কানজি ও কাজ করার ইচ্ছে প্রকাশ (Volitional Form ~ Oo/Yoo)",
+    "grammar": "<h3>নিজের কোনো কাজের ইচ্ছা বা প্রস্তাব প্রকাশ করা</h3><p>ইনফরমাল বা প্লেইন স্টাইলে কাউকে কোনো প্রস্তাব দিতে (যেমন: 'চলো যাই' বা 'চলো খাই') অথবা নিজের কোনো কাজের দৃঢ় ইচ্ছা প্রকাশ করতে Volitional Form ব্যবহার করা হয়। Group 1-এর শেষে 'Oo' সাউন্ড এবং Group 2-এর শেষে 'Yoo' যুক্ত হয়। যেমন: Ikimasu ➡️ Ikou (চলো যাই)।</p>",
+    "vocabulary": [
+      {"jp": "馬 (Uma/Ba)", "bn": "ঘোড়া <span class='kanji-badge'>N5 Kanji 93/100</span>"},
+      {"jp": "うま (Uma)", "bn": "ঘোড়া"},
+      {"jp": "いこう (Ikou)", "bn": "চলো যাই (Iku এর Volitional)"},
+      {"jp": "たべよう (Tabeyou)", "bn": "চলো খাই (Taberu এর Volitional)"},
+      {"jp": "しゅくだい (Shukudai)", "bn": "হোমওয়ার্ক / বাড়ির কাজ"}
+    ],
+    "quiz": {"q": "'Tabemasu' এর Volitional Form বা ইচ্ছাসূচক রূপ কোনটি?", "options": ["Tabeoo", "Tabeyou", "Taberou"], "correct": 1}
+  },
+  {
+    "id": 84,
+    "title": "লেসন ৮৪: N5 মেঘের কানজি ও ভবিষ্যতের পরিকল্পনা প্রকাশ (~ To omotte imasu)",
+    "grammar": "<h3>আগে থেকে ভেবে রাখা কোনো পরিকল্পনা বা উদ্দেশ্য প্রকাশ</h3><p>যখন আপনি আগে থেকেই কোনো কাজ করার পরিকল্পনা করে রেখেছেন এবং এখনো সেই ইচ্ছাটা মনে আছে, তখন Volitional Form-এর সাথে <b>と思っています (~ to omotte imasu)</b> যোগ করতে হয়। এর অর্থ: 'আমি এটি করার কথা ভাবছি বা প্ল্যান করছি'।</p>",
+    "vocabulary": [
+      {"jp": "雲 (Kumo/Un)", "bn": "মেঘ <span class='kanji-badge'>N5 Kanji 94/100</span>"},
+      {"jp": "くも (Kumo)", "bn": "মেঘ"},
+      {"jp": "かおう (Kaou)", "bn": "কিনব (Kau এর Volitional) ➡️ かおうとおもっています"},
+      {"jp": "くるま (Kuruma)", "bn": "গাড়ি"},
+      {"jp": "らいねん (Rainen)", "bn": "আগামী বছর"}
+    ],
+    "quiz": {"q": "'আগামী বছর গাড়ি কেনার কথা ভাবছি' এর সঠিক রূপ কোনটি?", "options": ["Rainen kuruma o kau to omotte imasu", "Rainen kuruma o kaou to omotte imasu", "Rainen kuruma o kaimasu to omotte imasu"], "correct": 1}
+  },
+  {
+    "id": 85,
+    "title": "লেসন ৮৫: N5 বিদ্যুতের কানজি ও নিশ্চিত পরিকল্পনা প্রকাশ (~ Tsumori desu)",
+    "grammar": "<h3>দৃঢ় সংকল্প বা নিশ্চিত সিদ্ধান্ত প্রকাশ করা (Intend to)</h3><p>পূর্ববর্তী লেসনের চেয়েও যখন আপনার সিদ্ধান্ত অনেক বেশি পাকা বা নিশ্চিত হয়, তখন ক্রিয়ার Dictionary Form-এর সাথে <b>つもりです (~ tsumori desu)</b> যোগ করা হয়। আর 'কোনো কিছু করব না' এমন সিদ্ধান্ত প্রকাশে Negative Form-এর সাথে বসে।</p>",
+    "vocabulary": [
+      {"jp": "電 (Den)", "bn": "বিদ্যুৎ / ইলেকট্রিসিটি <span class='kanji-badge'>N5 Kanji 95/100</span>"},
+      {"jp": "でんしゃ (Densha)", "bn": "বৈদ্যুতিক ট্রেন"},
+      {"jp": "でんき (Denki)", "bn": "আলো / বিদ্যুৎ"},
+      {"jp": "する (Suru)", "bn": "করা ➡️ するつもりです (করার সিদ্ধান্ত নিয়েছি)"},
+      {"jp": "くに (Kuni)", "bn": "দেশ / নিজের জন্মভূমি"}
+    ],
+    "quiz": {"q": "'আমি দেশে ফিরে যাওয়ার সিদ্ধান্ত নিয়েছি' (Kaeru = ফিরে যাওয়া) এর সঠিক রূপ কোনটি?", "options": ["Kuni e kaeru tsumori desu", "Kuni e kaeru to omotte imasu", "Kuni e kaerimasu tsumori desu"], "correct": 0}
+  },
+  {
+    "id": 86,
+    "title": "লেসন ৮৬: N5 গাড়ির কানজি ও পূর্ব নির্ধারিত শিডিউল প্রকাশ (~ Yotei desu)",
+    "grammar": "<h3>অফিসিয়াল বা প্রাতিষ্ঠানিক সময়সূচি প্রকাশ করা (Scheduled to)</h3><p>ব্যক্তিগত ইচ্ছার বাইরে যখন কোনো অফিশিয়াল রুটিন, ট্রেনের সময়সূচি, বা প্রাতিষ্ঠানিক মিটিংয়ের শিডিউল প্রকাশ করা হয়, তখন ক্রিয়ার Dictionary Form অথবা Noun + no এর সাথে <b>予定です (~ yotei desu)</b> বসে।</p>",
+    "vocabulary": [
+      {"jp": "車 (Kuruma/Sha)", "bn": "গাড়ি / যানবাহন <span class='kanji-badge'>N5 Kanji 96/100</span>"},
+      {"jp": "くるま (Kuruma)", "bn": "গাড়ি"},
+      {"jp": "じどうしゃ (Jidousha)", "bn": "মোটর গাড়ি / অটোমোবাইল"},
+      {"jp": "よてい (Yotei)", "bn": "পরিকল্পনা / শিডিউল"},
+      {"jp": "しゅっちょう (Shutchou)", "bn": "বিজনেস ট্রিপ / ব্যবসায়িক সফর"}
+    ],
+    "quiz": {"q": "'আগামীকাল বিজনেস ট্রিপের শিডিউল আছে' এর সঠিক রূপ কোনটি?", "options": ["Ashita shutchou no yotei desu", "Ashita shutchou yotei desu", "Ashita shutchou suru to yotei desu"], "correct": 0}
+  },
+  {
+    "id": 87,
+    "title": "লেসন ৮৭: N5 দরজার কানজি ও কোনো কাজের আগাম প্রস্তুতি (~ Te okimasu)",
+    "grammar": "<h3>ভবিষ্যতের সুবিধার জন্য কোনো কাজ আগে থেকেই করে রাখা</h3><p>ভবিষ্যতে কোনো নির্দিষ্ট উদ্দেশ্যে অথবা পরবর্তী ব্যবহারের সুবিধার জন্য কোনো কাজ আগাম রেডি বা প্রস্তুত করে রাখা বোঝালে ক্রিয়ার Te-form এর সাথে <b>おきます (~ okimasu)</b> যোগ করা হয়। যেমন: মেহমান আসার আগে ঘর পরিষ্কার করে রাখা।</p>",
+    "vocabulary": [
+      {"jp": "門 (Kado/Mon)", "bn": "গেট / দরজা / প্রবেশদ্বার <span class='kanji-badge'>N5 Kanji 97/100</span>"},
+      {"jp": "もん (Mon)", "bn": "গেট / সদর দরজা"},
+      {"jp": "かいます (Kaimasu)", "bn": "কেনা ➡️ かっておきます (আগে থেকেই কিনে রাখা)"},
+      {"jp": "そうじします (Soujishimasu)", "bn": "পরিষ্কার করা"},
+      {"jp": "チケット (Chiketto)", "bn": "টিকিট"}
+    ],
+    "quiz": {"q": "'টিকিট কিনে রাখব (আগাম প্রস্তুতি)' এর সঠিক জাপানি রূপ কোনটি?", "options": ["Chiketto o kau okimasu", "Chiketto o katte okimasu", "Chiketto o kaimashita okimasu"], "correct": 1}
+  },
+  {
+    "id": 88,
+    "title": "লেসন ৮৮: N5 শোনার কানজি ও কোনো অবস্থার পরিবর্তন বা রূপান্তর (~ Ni narimasu / ~ Ku narimasu)",
+    "grammar": "<h3>প্রাকৃতিকভাবে কোনো অবস্থার পরিবর্তন বা হওয়া (To become)</h3><p>কোনো কিছু প্রাকৃতিকভাবে পরিবর্তিত হয়ে নতুন রূপ ধারণ করলে এই রুল বসে।<br>১. Noun / Na-Adjective এর সাথে: <b>に なります</b> (যেমন: সুস্থ হওয়া ➡️ Genki ni narimasu)<br>২. I-Adjective এর শেষ 'i' বাদ দিয়ে: <b>く なります</b> (যেমন: ঠাণ্ডা হওয়া ➡️ Samuku narimasu)।</p>",
+    "vocabulary": [
+      {"jp": "聞 (Ki/Bun)", "bn": "শোনা / জিজ্ঞাসা করা <span class='kanji-badge'>N5 Kanji 98/100</span>"},
+      {"jp": "ききます (Kikimasu)", "bn": "শোনা / রেডিও শোনা"},
+      {"jp": "しんぶん (Shinbun)", "bn": "সংবাদপত্র (যা শুনে/পড়ে খবর জানা যায়)"},
+      {"jp": "さむく (Samuku)", "bn": "ঠাণ্ডা (Samai ➡️ Samuku narimasu)"},
+      {"jp": "せんせい (Sensei)", "bn": "শিক্ষক ➡️ せんせいになります (শিক্ষক হব)"}
+    ],
+    "quiz": {"q": "'আবহাওয়া ঠাণ্ডা হয়ে যাচ্ছে' (Samai = ঠাণ্ডা) এর সঠিক রূপ কোনটি?", "options": ["Samai ni narimasu", "Samaku narimasu", "Samaku desu"], "correct": 1}
+  },
+  {
+    "id": 89,
+    "title": "লেসন ৮৯: N5 খোলার কানজি ও নিজের ইচ্ছা বা কোনো কাজের চেষ্টা (~ Yoo to suru)",
+    "grammar": "<h3>কোনো কাজ করার ঠিক মূহূর্তে চেষ্টা বা উপক্রম করা</h3><p>কেউ কোনো কাজ করার ঠিক আগ মূহূর্তে চেষ্টা করছে বা কোনো অচল বস্তু সচল হওয়ার উপক্রম করছে বোঝালে Volitional Form-এর সাথে <b>とします (~ to suru)</b> বসে। যেমন: আমি যখন ঘুমানোর চেষ্টা করছিলাম, তখন ফোন বেজে উঠল।</p>",
+    "vocabulary": [
+      {"jp": "開 (A/Kai)", "bn": "খোলা / উন্মুক্ত করা <span class='kanji-badge'>N5 Kanji 99/100</span>"},
+      {"jp": "あけます (Akemasu)", "bn": "খোলা (দরজা/জানালা)"},
+      {"jp": "ねよう (Neyou)", "bn": "ঘুমাব (Neru এর Volitional) ➡️ ねようとしたとき (যখন ঘুমানোর চেষ্টা করছিলাম)"},
+      {"jp": "ドア (Doa)", "bn": "দরজা"},
+      {"jp": "でんわ (Denwa)", "bn": "ফোন / টেলিফোন"}
+    ],
+    "quiz": {"q": "কানজি '開' এর বিপরীত কানজি কোনটি হতে পারে (লেসন ৯০ অনুযায়ী)?", "options": ["聞", "車", "閉"], "correct": 2}
+  },
+  {
+    "id": 90,
+    "title": "লেসন ৯০: N5 বন্ধ করার কানজি ও সম্ভাবনাময় কোনো বিষয়ের নিশ্চয়তা (~ Ni chigai nai)",
+    "grammar": "<h3>কোনো সন্দেহের অবকাশ না রেখে শতভাগ নিশ্চিত হওয়া (Must be)</h3><p>কোনো শক্ত প্রমাণ বা যৌক্তিক কারণে কোনো বিষয়ে আপনি যখন শতভাগ নিশ্চিত যে 'এটি এমন হতেই হবে বা এতে কোনো ভুল নেই', তখন প್লেইন ফর্মের সাথে <b>にちがいない (~ ni chigai nai)</b> যোগ করা হয়।</p>",
+    "vocabulary": [
+      {"jp": "閉 (Shime/Hei)", "bn": "বন্ধ করা <span class='kanji-badge'>N5 Kanji 100/100</span>"},
+      {"jp": "しめます (Shimemasu)", "bn": "বন্ধ করা (জানালা/বই)"},
+      {"jp": "べんり [な] (Benri [na])", "bn": "সুবিধাজনক ➡️ べんりにちがいない (অবশ্যই সুবিধাজনক)"},
+      {"jp": "からい (Karai)", "bn": "ঝাল"},
+      {"jp": "おいしい (Oishii)", "bn": "সুস্বাদু"}
+    ],
+    "quiz": {"q": "অভিনন্দন! এটি আপনার কততম অফিসিয়াল N5 কানজি?", "options": ["৮০ তম", "৯০ তম", "১০০ তম"], "correct": 2}
+  }
