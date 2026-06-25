@@ -275,3 +275,71 @@
     ],
     "quiz": {"q": "'আমি মনে করি জাপানি ভাষা চমৎকার' (Omoshiroi = চমৎকার) - এর সঠিক গঠন কোনটি?", "options": ["Nihongo wa omoshiroi desu", "Nihongo wa omoshiroi to omoimasu", "Nihongo wa omoshiroi koto ga aru"], "correct": 1}
   }
+,
+  {
+    "id": 24,
+    "title": "লেসন ২৫: N4 ব্যাকরণ - শর্তযুক্ত বাক্য (~Tara Form)",
+    "grammar": "<p>জাপানিজ ভাষায় 'যদি... তাহলে' (If... then) বোঝানোর সবচেয়ে সহজ এবং বহুল ব্যবহৃত রূপ হলো <b>~Tara (~たら)</b> ফর্ম। এটি তৈরি করতে ভার্বের অতীত রূপ বা Ta-form এর সাথে <b>ら (ra)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Ame ga futtara, ikimasen (যদি বৃষ্টি হয়, তাহলে যাব না)।</li><li><b>উদাহরণ:</b> Jikan ga attara, terebi o mimasu (যদি সময় থাকে, তাহলে টিভি দেখব)।</li></ul>",
+    "vocabulary": [
+      {"jp": "時間 (Jikan)", "bn": "সময় <span class='kanji-badge'>N5 Kanji</span>"},
+      {"jp": "お金 (Okane)", "bn": "টাকা / অর্থ <span class='kanji-badge'>N5 Kanji</span>"},
+      {"jp": "安かったら (Yasukattara)", "bn": "যদি সস্তা হয়"}
+    ],
+    "quiz": {"q": "'যদি টাকা থাকে, তাহলে গাড়ি কিনব' (Okane ga aru -> Attara) - এর সঠিক রূপ কোনটি?", "options": ["Okane ga attara, kuruma o kaimasu", "Okane ga aru, kuruma o kaimasu", "Okane ga arimasu kara, kuruma o kaimasu"], "correct": 0}
+  },
+  {
+    "id": 25,
+    "title": "লেসন ২৬: N4 ব্যাকরণ - যুগপৎ কাজ বা একসাথে দুটি কাজ (~Nagara)",
+    "grammar": "<p>একই সময়ে একসাথে দুটি কাজ করা বোঝালে (\"এটি করার পাশাপাশি ওটি করা\") প্রথম ভার্বের ます (masu) বাদ দিয়ে <b>ながら (nagara)</b> যোগ করতে হয়। মনে রাখবেন, প্রধান কাজটি সবসময় বাক্যের শেষে বসে।</p><ul><li><b>উদাহরণ:</b> Ongaku o kikinagara, benkyoo shimasu (গান শোনার পাশাপাশি পড়াশোনা করি)।</li><li><b>উদাহরণ:</b> Terebi o mimanagara, tabemasu (টিভি দেখতে দেখতে খাই)।</li></ul>",
+    "vocabulary": [
+      {"jp": "音楽 (Ongaku)", "bn": "গান / মিউজিক <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "聞きます (Kikimasu)", "bn": "শোনা <span class='kanji-badge'>N5 Kanji</span>"},
+      {"jp": "勉強 (Benkyoo)", "bn": "পড়াশোনা করা <span class='kanji-badge'>N5 Kanji</span>"}
+    ],
+    "quiz": {"q": "'হাঁটার পাশাপাশি কথা বলা' (Aruki[masu] + Hanashimasu) এর সঠিক রূপ কী হবে?", "options": ["Arukimasu nagara hanashimasu", "Arukinagara hanashimasu", "Arukite hanashimasu"], "correct": 1}
+  },
+  {
+    "id": 26,
+    "title": "লেসন ২৭: N4 ব্যাকরণ - কোনো কিছু করার পর (~Te kara)",
+    "grammar": "<p>একটি কাজ শেষ করার ঠিক পরপরই আরেকটি কাজ করা বোঝালে প্রথম ভার্বের Te-form এর সাথে <b>から (kara)</b> যোগ করতে হয়।</p><ul><li><b>উদাহরণ:</b> Shigoto ga owatte kara, uchi ni kaerimasu (কাজ শেষ হওয়ার পর বাড়ি ফিরব)।</li><li><b>উদাহরণ:</b> Te o araitte kara, tabemasu (হাত ধোয়ার পর খাব)।</li></ul>",
+    "vocabulary": [
+      {"jp": "仕事 (Shigoto)", "bn": "কাজ <span class='kanji-badge'>N5 Kanji</span>"},
+      {"jp": "終わります (Owarimasu)", "bn": "শেষ হওয়া"},
+      {"jp": "洗います (Araimasu)", "bn": "ধোয়া / পরিষ্কার করা"}
+    ],
+    "quiz": {"q": "'পড়াশোনা শেষ করার পর ঘুমাব' (Benkyoo shite + Nemasu) এর সঠিক গঠন কোনটি?", "options": ["Benkyoo shimasu kara nemasu", "Benkyoo shite kara nemasu", "Benkyoo shitai kara nemasu"], "correct": 1}
+  },
+  {
+    "id": 27,
+    "title": "লেসন ২৮: N4 কানজি - সমাজ ও সংস্কৃতি (Society & Culture)",
+    "grammar": "<p>N4 লেভেলের শেষদিকের অত্যন্ত গুরুত্বপূর্ণ ৩টি কানজি হলো <b>国 (দেশ)</b>, <b>外国 (বিদেশ)</b>, এবং <b>人 (মানুষ)</b>। এগুলো একত্রে জটিল শব্দ গঠন করে।</p><ul><li>国 (Kuni - দেশ)</li><li>外 (Soto/Gai - বাইরে) ➡️ 外国人 (Gaikokujin - বিদেশী নাগরিক)</li></ul>",
+    "vocabulary": [
+      {"jp": "国 (Kuni/Koku)", "bn": "দেশ <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "外国 (Gaikoku)", "bn": "বিদেশ <span class='kanji-badge'>N4 Kanji</span>"},
+      {"jp": "外国人 (Gaikokujin)", "bn": "বিদেশী মানুষ <span class='kanji-badge'>N4 Kanji</span>"}
+    ],
+    "quiz": {"q": "‘外国人’ (Gaikokujin) শব্দটির সঠিক অর্থ কী?", "options": ["জাপানি নাগরিক", "বিদেশী নাগরিক", "ডাক্তার"], "correct": 1}
+  },
+  {
+    "id": 28,
+    "title": "লেসন ২৯: N4 ব্যাকরণ - বিনম্র ভাষা ও সম্মান প্রদর্শন (Keigo Introduction)",
+    "grammar": "<p>জাপানি সংস্কৃতির সবচেয়ে গুরুত্বপূর্ণ অংশ হলো সম্মান প্রদর্শন বা <b>敬語 (Keigo)</b>। বড়দের বা কাস্টমারদের সাথে কথা বলার সময় সাধারণ ভার্বগুলো পরিবর্তিত হয়ে যায়।</p><ul><li>Ikimasu/Kimasu (যাওয়া/আসা) ➡️ <b>いらっしゃいます (Irasshaimasu)</b></li><li>Tabemasu/Nomimasu (খাওয়া/পান করা) ➡️ <b>召し上がります (Meshishagarimasu)</b></li></ul>",
+    "vocabulary": [
+      {"jp": "いらっしゃいませ (Irasshaimase)", "bn": "স্বাগতম (Welcome to the shop)"},
+      {"jp": "召し上がります (Meshishagarimasu)", "bn": "খাওয়া / পান করা (সম্মানসূচক)"},
+      {"jp": "敬語 (Keigo)", "bn": "বিনম্র/সম্মানসূচক ভাষা"}
+    ],
+    "quiz": {"q": "কোনো রেস্টুরেন্ট বা শপে ঢুকলে জাপানিজে সম্মান দেখিয়ে প্রথম কোন শব্দটি বলা হয়?", "options": ["Arigatou gozaimasu", "Irasshaimase", "Sayoonara"], "correct": 1}
+  },
+  {
+    "id": 29,
+    "title": "🏆 লেসন ৩০: JLPT N4 গ্র্যান্ড মক টেস্ট (Final Exam)",
+    "grammar": "<p>অভিনন্দন! আপনি হিরাগানা থেকে শুরু করে JLPT N4 লেভেলের সমস্ত গুরুত্বপূর্ণ ব্যাকরণ, শব্দার্থ এবং কানজি সফলভাবে শেষ করেছেন। এটি আপনার চূড়ান্ত পরীক্ষা। এই কুইজে পাস করলেই আপনার কোর্সটি ১০০% কমপ্লিট হবে!</p>🐋 <b>Ganbatte Kudasai! (শুভকামনা!)</b>",
+    "vocabulary": [
+      {"jp": "合格 (Gookaku)", "bn": "পরীক্ষায় পাস করা"},
+      {"jp": "おめでとう (Omedetou)", "bn": "অভিনন্দন!"},
+      {"jp": "頑張って (Ganbatte)", "bn": "সবটুকু দিয়ে চেষ্টা করা / Best of luck"}
+    ],
+    "quiz": {"q": "চূড়ান্ত প্রশ্ন: 'Kusuri o [?] hooga ii desu' (ওষুধ খাওয়া আপনার জন্য ভালো হবে) - শূন্যস্থানে সঠিক রূপ কোনটি বসবে?", "options": ["nomimasu", "nonda", "nomitai"], "correct": 1}
+  }
+]
