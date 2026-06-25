@@ -3,51 +3,298 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nihongo Quest Pro - N5 to N4</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <title>Nihongo Quest Pro</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --success-color: #2ecc71;
+            --danger-color: #e74c3c;
+            --warning-color: #f39c12;
+            --dark-bg: #1a1a2e;
+            --card-bg: #16213e;
+            --text-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-color);
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar / Roadmap Style */
+        #sidebar {
+            width: 300px;
+            background-color: var(--card-bg);
+            border-right: 1px solid #2c3e50;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid #2c3e50;
+            text-align: center;
+        }
+
+        .stats-box {
+            background: #0f172a;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #lesson-roadmap {
+            list-style: none;
+            overflow-y: auto;
+            flex-grow: 1;
+            padding: 10px;
+        }
+
+        #lesson-roadmap li {
+            padding: 12px 15px;
+            margin-bottom: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            background: #1f4068;
+        }
+
+        #lesson-roadmap li.locked {
+            opacity: 0.5;
+            cursor: not-allowed;
+            background: #111;
+        }
+
+        #lesson-roadmap li.active {
+            border-left: 5px solid var(--primary-color);
+            background: #0f3460;
+            font-weight: bold;
+        }
+
+        #lesson-roadmap li.completed {
+            border-left: 5px solid var(--success-color);
+        }
+
+        .reset-btn {
+            background: var(--danger-color);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+        }
+
+        /* Main Content Style */
+        #main-content {
+            flex-grow: 1;
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        .lesson-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #lesson-title {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #fff;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+
+        .section-box {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .section-box h3 {
+            margin-bottom: 15px;
+            color: #00ffff;
+            font-size: 18px;
+        }
+
+        /* Grammar Styles */
+        #grammar-content p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        #grammar-content b {
+            color: #ff007f;
+            background: #000;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        /* Vocabulary Grid */
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .vocab-card {
+            background: #1f4068;
+            padding: 15px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #2c3e50;
+        }
+
+        .vocab-jp {
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+
+        /* Quiz Box */
+        #quiz-question {
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .quiz-options button {
+            background: #1f4068;
+            color: #fff;
+            border: 1px solid #2c3e50;
+            padding: 12px;
+            text-align: left;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.2s;
+        }
+
+        .quiz-options button:hover {
+            background: #0f3460;
+        }
+
+        .quiz-options button.selected {
+            border-color: var(--primary-color);
+            background: #0f3460;
+            box-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
+        }
+
+        .quiz-options button.correct {
+            background: var(--success-color) !important;
+            color: #fff;
+        }
+
+        .quiz-options button.wrong {
+            background: var(--danger-color) !important;
+            color: #fff;
+        }
+
+        #quiz-feedback {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        #next-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            width: 100%;
+            transition: background 0.2s;
+        }
+
+        #next-btn:hover {
+            background: #357abd;
+        }
+
+        /* Locked Screen Layout */
+        #locked-screen {
+            text-align: center;
+            padding: 50px;
+            background: rgba(0,0,0,0.5);
+            border-radius: 10px;
+        }
+
+        /* Animations */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10deg); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive Setup */
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            #sidebar { width: 100%; height: 300px; }
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <h1 class="bounce-in">🇯🇵 Nihongo Quest Pro</h1>
-        <p>হিরাগানা থেকে JLPT N4 লেভেলের সম্পূর্ণ লার্নিং প্ল্যাটফর্ম</p>
-        
-        <div class="stats-container">
-            <div class="stat-box">📊 প্রোগ্রেস: <span id="total-progress">0%</span></div>
-            <div class="stat-box">🏆 লেসন আনলক: <span id="unlocked-count">0/0</span></div>
-            <button onclick="resetProgress()" class="reset-btn">🔄 রিসেট</button>
-        </div>
-    </header>
+<body onload="loadDatabase()">
 
-    <div class="app-container">
-        <!-- লার্নিং রোডম্যাপ সাইডবার -->
-        <aside class="sidebar">
-            <h3>🗺️ আপনার লার্নিং পথ</h3>
-            <ul id="lesson-roadmap"></ul>
-        </aside>
-
-        <!-- মূল কন্টেন্ট এরিয়া -->
-        <main class="content-area">
-            <div id="locked-screen" class="locked-screen" style="display: none;">
-                <div class="lock-icon">🔒</div>
-                <h2>এই লেসনটি এখন লক করা আছে!</h2>
-                <p>পূর্ববর্তী লেসনের কুইজে সফলভাবে পাস করে এটি আনলক করুন।</p>
+    <div id="sidebar">
+        <div class="sidebar-header">
+            <h2>Nihongo Quest</h2>
+            <div class="stats-box">
+                <span>প্রোগ্রেস: <b id="total-progress">0%</b></span>
+                <span>আনলক: <b id="unlocked-count">0/0</b></span>
             </div>
+        </div>
+        
+        <ul id="lesson-roadmap"></ul>
+        
+        <button class="reset-btn" onclick="resetProgress()">🔄 প্রোগ্রেস রিসেট করুন</button>
+    </div>
 
+    <div id="main-content">
+        <div class="lesson-container">
+            
             <div id="active-lesson-box" class="fade-in">
-                <h2 id="lesson-title">লোডিং...</h2>
-                
-                <section class="section-box slide-up">
+                <h1 id="lesson-title">লেসন লোড হচ্ছে...</h1>
+
+                <section class="section-box">
                     <h3>📖 ব্যাকরণ বিশ্লেষণ (Grammar Explanation)</h3>
                     <div id="grammar-content"></div>
                 </section>
 
-                <section class="section-box slide-up">
+                <section class="section-box">
                     <h3>💡 শব্দার্থ ও কানজি (Vocabulary & Kanji)</h3>
                     <div class="vocab-grid" id="vocab-content"></div>
                 </section>
 
-                <section class="section-box quiz-box slide-up">
+                <section class="section-box quiz-box">
                     <h3>✏️ আনলক কুইজ (পাস মার্ক: ১০০%)</h3>
                     <div id="quiz-container">
                         <p id="quiz-question"></p>
@@ -57,12 +304,14 @@
                     </div>
                 </section>
             </div>
-        </main>
-    </div>
 
-    <footer>
-        <p>Nihongo Quest Pro © 2026 | গেমের ছলে জাপানিজ শিখুন</p>
-    </footer>
+            <div id="locked-screen" style="display: none;">
+                <h2>🔒 এই লেসনটি এখনও লক করা আছে!</h2>
+                <p style="margin-top: 10px; color: #a0aec0;">পূর্ববর্তী লেসনের কুইজটি সফলভাবে সম্পন্ন করে এই লেসনটি আনলক করুন।</p>
+            </div>
+
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
